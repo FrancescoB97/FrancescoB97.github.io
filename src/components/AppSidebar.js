@@ -10,7 +10,7 @@ import {
 
 function AppSidebar() {
   return (
-    <div>
+    <div className = "ms-3">
       <Nav id="filters-nav">
         <ListGroup as="ul" id="filters-nav-list">
           
