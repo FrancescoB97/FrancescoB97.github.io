@@ -1,5 +1,7 @@
 import './StudentCard.css'
-import { Table } from "react-bootstrap";
+import { Table, Image } from "react-bootstrap";
+import it from "./Images/ita.svg";
+import en from "./Images/eng.svg";
 
 const exams = [
   {data: "26/01/2021", name: "Data Science e Tecnologie per le Basi di Dati", crediti: "8", voto: "20", lang: "it"},
@@ -17,7 +19,7 @@ function StudentCardPage(props) {
   return (
     <div className="mt-5 pt-4">
       <h5>STUDENT ID: <u>282890</u></h5>
-      <h5>Istruzione</h5>
+      <h5>Istruzione</h5>           
       <EducationTable/>
 
       <h5 className="mt-4 pt-4">Lingue</h5>
@@ -128,7 +130,7 @@ function ExamRowData(props) {
     <td >{props.exam.name}</td>
     <td style={{ "textAlign": "center" }}>{props.exam.crediti}</td>
     <td style={{ "textAlign": "center" }}>{props.exam.voto}</td>
-    <td style={{ "textAlign": "center" }}>{props.exam.lang}</td>   
+    <td style={{ "textAlign": "center" }}><Image inline className="mx-auto d-none d-sm-block" src={props.exam.lang == "it" ? it : en} rounded width="15"/></td>   
   </>;
 }
 
