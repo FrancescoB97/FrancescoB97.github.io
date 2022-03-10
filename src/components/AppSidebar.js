@@ -4,30 +4,30 @@ import {
   AboutMeBtn,
   SkillsBtn,
   PortfolioBtn,
-  StrudentCardBtn,
+  StudentCardBtn,
   SocialsBtn,
 } from "./SideBarButton";
 
-function AppSidebar() {
+function AppSidebar(props) {
   return (
     <div className = "ms-3">
       <Nav id="filters-nav">
         <ListGroup as="ul" id="filters-nav-list">
           
           <NavLink as="li" className="myContainer">
-            <AboutMeBtn />
+            <AboutMeBtn title={props.title}/>
           </NavLink>
           <NavLink as="li" className="myContainer">
-            <SkillsBtn />
+            <SkillsBtn title={props.title}/>
           </NavLink>
           <NavLink as="li" className="myContainer">
-            <PortfolioBtn />
+            <PortfolioBtn title={props.title}/>
           </NavLink>
           <NavLink as="li" className="myContainer">
-            <StrudentCardBtn />
+            <StudentCardBtn title={props.title}/>
           </NavLink>
           <NavLink as="li" className="myContainer">
-            <SocialsBtn />
+            <SocialsBtn title={props.title}/>
           </NavLink>
         </ListGroup>
       </Nav>

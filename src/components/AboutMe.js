@@ -2,7 +2,8 @@ import { Image } from "react-bootstrap";
 import proPic from "./Images/myPhoto.jpg";
 
 
-function AboutMePage() {
+function AboutMePage(props) {
+  props.updateTitle("AboutMe");
   return (
     <>
     <Image inline className="mx-auto d-none d-sm-block" src={proPic} roundedCircle width="200"/>
