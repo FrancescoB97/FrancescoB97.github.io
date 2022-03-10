@@ -6,6 +6,9 @@ import AppSidebar from "./components/AppSidebar";
 import { AppNavbar } from "./components/AppNavbar";
 import { AboutMePage } from "./components/AboutMe";
 import { SkillsPage } from "./components/Skills";
+import { PortfolioPage } from "./components/Portfolio";
+import { StudentCardPage } from "./components/StudentCard";
+import { SocialsPage } from "./components/Socials";
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 
@@ -42,6 +45,18 @@ function App() {
 
               <Route path="/Skills" render={() => (
                   <SkillsPage updateTitle={updateTitle}/>              
+              )} />
+
+              <Route path="/Portfolio" render={() => (
+                  <PortfolioPage updateTitle={updateTitle}/>              
+              )} />
+
+              <Route path="/StudentCard" render={() => (
+                  <StudentCardPage updateTitle={updateTitle}/>              
+              )} />
+
+              <Route path="/Socials" render={() => (
+                  <SocialsPage updateTitle={updateTitle}/>              
               )} />
                 
                 
