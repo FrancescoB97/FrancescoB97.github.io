@@ -59,10 +59,10 @@
     "name": "Progetto di applicazioni Web",
     "embedYT": "",
     "screenshots" : [
-        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen1.jpg",
-        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen2.png",
-        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen3.png",
-        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen4.png"
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen1.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen2.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen3.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen4.jpg"
     ],
     "intro": "Progetto dell'esame di web application, sviluppato in React-bootstrap e Javascript",
     "descrizione": "Creazione di un'interfaccia frontend per la gestione di Surveys (Questionari), con la possibilità di creare, modificare e eliminare. Ogni utente ha un proprio account e le relative credenziali e può vedere le risposte solo alle Survey che lui stesso ha creato. Gli utenti non autenticati vedranno i vari questionari a cui potranno rispondere",
