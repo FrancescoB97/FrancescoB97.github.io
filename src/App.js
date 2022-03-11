@@ -67,8 +67,7 @@ function App() {
                         <ProjectPage updateTitle={updateTitle} project={projects.filter((p) => p.id === match.params.ID)[0]}/>
                 }
                 </>
-              )}/>
-                
+              )}/>         
                 
               </Col>
               <Route>
