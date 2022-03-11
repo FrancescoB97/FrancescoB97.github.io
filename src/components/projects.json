@@ -37,23 +37,36 @@
     "name": "Progetto di realtà virtuale",
     "embedYT": "6JMb1Cj_LWs",
     "screenshots" : [
-        
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen1.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen2.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen3.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen4.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen5.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen6.jpg"
     ],
-    "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
-    "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
-    "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
-    "attributes": [],
-    "links": [{"platform": "itch.io", "link" : ""}]
+    "intro": "Progetto dell'esame di realtà virtuale, creato grazie a un team composto da 5 persone (2 ingegneri del cinema, 2 di design e il qui presente ingegnere informatico)",
+    "descrizione": "Causa covid e assenza di visori, ci siamo limitati a sviluppare un'applicazione Desktop, di natura didattica, così da permettere di vivere un'esperienza immersiva riguardo l'affascinante ed estremamente complessa vita delle formiche",
+    "insegnamenti": "Questo forse è il corso in cui ho imparato più nozioni in assoluto. Oltre agli aspetti teorici di VR/AR/AX e allo spietato universo delle formiche, ho acquisito competenze di team manager, in quanto mi sono ritrovato a dover gestire le varie operazioni e sfruttare le competenze pregresse dei miei compagni per svolgere il lavoro nel modo più efficace possibile.\nInoltre ho avuto l'opportunità per imparare al meglio un game engine come Unity che mi affascinava sin dai tempi del liceo. In questo corso mi hanno insegnato la navigazione e l'interazione in ambienti virtuali, le simulazioni fisiche, gli agenti autonomi, l'audio spazializzato e delle tecniche per ottimizzare. \nIn modo autonomo ho approfondito su Coroutines, l'utilizzo della libreria Dotween e ottenuto un'infarinatura sulle chiamate asincrone. Mi permetto di dire di essere il responsabile di tutta la sezione codice. Mi sono quindi ritrovato a sviluppare le abilità in Blender, Unity, C#, Audacity e DaVinci",
+    "attributes": [
+        {"nome": "Formiche. Storia di un’esplorazione scientifica-Adelphi (1997)", "link":"https://www.adelphi.it/libro/9788845913075"},        
+        {"nome": "Tutte quelle relative al gioco sono consultabili sul sito itch", "link":"https://theregnant.itch.io/the-regnant"}      
+    ],
+    "links": [{"platform": "itch.io", "link" : "https://theregnant.itch.io/the-regnant"}]
   },
   {
     "id": "Surveys_web_app",
     "data": "Jul 2021",
     "name": "Progetto di applicazioni Web",
-    "embedYT": "I9orCtgXWSg",
-    "screenshots" : [],
-    "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
-    "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
-    "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
+    "embedYT": "",
+    "screenshots" : [
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen1.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen2.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen3.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen4.png"
+    ],
+    "intro": "Progetto dell'esame di web application, sviluppato in React-bootstrap e Javascript",
+    "descrizione": "Creazione di un'interfaccia frontend per la gestione di Surveys (Questionari), con la possibilità di creare, modificare e eliminare. Ogni utente ha un proprio account e le relative credenziali e può vedere le risposte solo alle Survey che lui stesso ha creato. Gli utenti non autenticati vedranno i vari questionari a cui potranno rispondere",
+    "insegnamenti": "Corso con laboratori di gruppo e progetto individuale che mi ha insegnato a lavorare collaborativamente con altre persone direttamente su Visual Studio con Live Share. In sintesi ho imparato a sviluppare interfacce web tramite React - Bootstrap e Javascript, ma ho ottenuto anche un'infarinatura del mondo backend, scrivendo e poi richiamando con le API le varie funzioni e leggendo i dati interrogando un database SQL.",
     "attributes": "",
     "links": []
   }
@@ -61,11 +74,11 @@
     "id": "BlindLabyrinth",
     "data": "Jan 2021",
     "name": "Progetto di architetture degli elaboratori",
-    "embedYT": "I9orCtgXWSg",
+    "embedYT": "X16wgaUkHiA",
     "screenshots" : [],
-    "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
-    "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
-    "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
+    "intro": "Progetto dell'esame di architetture dei sistemi di elaborazione",
+    "descrizione": "Causa covid abbiamo dovuto realizzare l'intero progetto su un emulatore della scheda LandTiger offerto dal Politecnico di Torino per simularne il comportamento. L'applicazione consiste in un gioco, dove si incarna un robottino in grado di \"vedere\" solo tramite sensori di prossimità. Quindi in base alla frequenza di lampeggiamento dei LED sulla scheda si può intuire la direzione da percorrere. Il gioco termina una volta raggiunta l'uscita. ",
+    "insegnamenti": "In questo corso ho imparato un livello di programmazione estremamente basso, quale l'assembly. Ad un certo punto siamo stati in grado di integrarlo con il C per sviluppare comportamenti più complessi.",
     "attributes": [],
     "links": []
   },
@@ -73,11 +86,11 @@
     "id": "EzShop",
     "data": "Jun 2021",
     "name": "Progetto di ingegneria del Software",
-    "embedYT": "I9orCtgXWSg",
+    "embedYT": "",
     "screenshots" : [],
-    "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
-    "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
-    "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
+    "intro": "Progetto dell'esame di Software Engineering",
+    "descrizione": "Sviluppo prima concettuale e poi direttamente al pc di un'applicazione per la gestione di un negozio alimentare di piccole dimensioni. Il tutto ha visto la definizione del requirement document, design document, GUI prototype, coding, unit testing e integration testing",
+    "insegnamenti": "Corso focalizzato sulla collaborazione, ho imparato quanto sia fondamentale la buona comunicazione, il teamwork e la suddivisione dei lavori e la gestione delle tempistiche. Ho scaldato nuovamente le dita anche su Java e sugli unit test",
     "attributes": [],
     "links": []
   }

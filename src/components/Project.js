@@ -9,8 +9,9 @@ function ProjectPage(props) {
   return (
     <>
       <div className="App mt-5">
-        <YoutubeEmbed embedId={props.project.embedYT} />     
+        {props.project.embedYT.length !== 0 ? <YoutubeEmbed embedId={props.project.embedYT} /> : <></>}     
 
+        {props.project.screenshots.length !== 0 ? 
         <Carousel className="mt-3" interval={3000}>
         {props.project.screenshots.map((screen, i) => (
           <Carousel.Item key={i++}>
@@ -20,9 +21,7 @@ function ProjectPage(props) {
             />            
           </Carousel.Item>
         ))}         
-        </Carousel>
-        
-
+        </Carousel>  : <></>}      
         </div>
 
         <h3 className = "mt-4"><b>Introduzione</b></h3>
