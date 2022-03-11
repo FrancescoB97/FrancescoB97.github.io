@@ -166,7 +166,7 @@ function SocialsPage(props) {
       </div>
 
       <h4 className="mt-4 pt-4">Scarica il mio CV in formato pdf</h4>
-
+          <a href="https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/CV.pdf">Download</a>
     </div>
     </>     
   );
