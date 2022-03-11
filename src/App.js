@@ -71,6 +71,9 @@ function App() {
                 
                 
               </Col>
+              <Route>
+                <Redirect to='/AboutMe'/>
+              </Route>
             </Switch>
           </Row>
         </div>
