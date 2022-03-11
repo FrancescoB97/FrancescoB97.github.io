@@ -9,8 +9,11 @@ import { SkillsPage } from "./components/Skills";
 import { PortfolioPage } from "./components/Portfolio";
 import { StudentCardPage } from "./components/StudentCard";
 import { SocialsPage } from "./components/Socials";
+import { ProjectPage } from "./components/Project";
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
+import projectsThumbnail from "./components/projectsThumbnails.json";
+import projects from "./components/projects.json";
 
 function App() {
   const [title, setTitle] = useState("AboutMe");
@@ -47,8 +50,8 @@ function App() {
                   <SkillsPage updateTitle={updateTitle}/>              
               )} />
 
-              <Route path="/Portfolio" render={() => (
-                  <PortfolioPage updateTitle={updateTitle}/>              
+              <Route exact path="/Portfolio" render={() => (
+                  <PortfolioPage updateTitle={updateTitle} projects ={projectsThumbnail}/>              
               )} />
 
               <Route path="/StudentCard" render={() => (
@@ -58,6 +61,13 @@ function App() {
               <Route path="/Socials" render={() => (
                   <SocialsPage updateTitle={updateTitle}/>              
               )} />
+
+              <Route exact path="/Portfolio/:ID" render={({ match }) => (
+                <>{projects.length === 0 ? <Redirect to="/" /> :   
+                        <ProjectPage updateTitle={updateTitle} project={projects.filter((p) => p.id === match.params.ID)[0]}/>
+                }
+                </>
+              )}/>
                 
                 
               </Col>

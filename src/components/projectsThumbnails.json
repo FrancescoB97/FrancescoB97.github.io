@@ -1,0 +1,50 @@
+[
+  {
+    "id": "TheBlackPearl",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
+    "data": "Mar 2022",
+    "name": "Informatica Grafica: Blender",
+    "breveDescrizione": "Modellazione ed il rendering di scene 3D statiche in Blender",
+    "page": true
+  },
+  {
+    "id": "TheBlackPearl_openGL",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_openGL.jpg",
+    "data": "Mar 2022",
+    "name": "Informatica Grafica: OpenGL",
+    "breveDescrizione": "Realizzazione di applicazione interattiva in openGL",
+    "page": true
+  },
+  {
+    "id": "TheRegnant",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/RV.jpg",
+    "data": "Feb 2022",
+    "name": "Realtà Virtuale",
+    "breveDescrizione": "Applicazione desktop di natura didattica per scoprire il complesso e affascinante mondo delle formiche a partire dal loro punto di vista",
+    "page": true
+  },
+  {
+    "id": "Surveys_web_app",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/WEBAPP.jpg",
+    "data": "Jul 2021",
+    "name": "Applicazione Web",
+    "breveDescrizione": "Sito di gestione di Surveys (Questionari) in React Bootstrap, gestendo sia parte di fontend sia parte backend",
+    "page": true
+  },
+  {
+    "id": "BlindLabyrinth",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/ASE.jpg",
+    "data": "Jan 2021",
+    "name": "Architetture degli elaboratori",
+    "breveDescrizione": "Applicazione interattiva per emulatore Keil uVision della scheda LandTiger",
+    "page": true
+  },
+  {
+    "id": "EzShop",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/SWENG.png",
+    "data": "Jun 2021",
+    "name": "Progetto di ingegneria del Software",
+    "breveDescrizione": "Ezshop: applicazione per piccoli negozi per supportare proprietario e manager",
+    "page": false
+  }
+]

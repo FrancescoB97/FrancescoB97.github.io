@@ -1,0 +1,8 @@
+.projectcorners {
+  border-radius: 25px;
+  border: 2px solid #111111;
+  padding: 13px;
+  /*width: 800px;*/
+  /*height: 150px;*/
+  background-color: honeydew;  
+}
