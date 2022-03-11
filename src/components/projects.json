@@ -4,36 +4,46 @@
     "data": "Mar 2022",
     "name": "Progetto di Informatica Grafica: Blender",
     "embedYT": "I9orCtgXWSg",
-    "screenshots" : [],
+    "screenshots" : [
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/IG_blender/Render1.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/IG_blender/Render2.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/IG_blender/Render3.png"
+    ],
     "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
     "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
     "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
-    "attributes": "",
+    "attributes": [],
     "links": []
   },
   {
     "id": "TheBlackPearl_openGL",
     "data": "Mar 2022",
     "name": "Progetto di Informatica Grafica: OpenGL",
-    "embedYT": "I9orCtgXWSg",
+    "embedYT": "6Qcr9eu0rkc",
     "screenshots" : [],
-    "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
-    "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
-    "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
-    "attributes": "",
+    "intro": "Progetto dell'esame di informatica grafica: un'applicazione interattiva sviluppata tramite OpenGL e glut",
+    "descrizione": "Gioco stile retrò, scritto in OpenGL e C/C++, in cui l'utente deve ottenere il punteggio più alto possibile, schivando scogli, sparando al kraken e facendo attenzione alle sirene. Sono presenti bonus, come il tesoro, che incrementa il punteggio, e malus, come la sirena che inverte i tasti di controllo. Il tutto condito con un aumento di velocità del gioco incrementale che rende sempre più complicata e impegnativa l'esperienza",
+    "insegnamenti": "In questo corso ho imparato le specifiche di basso livello per la produzione di applicazioni di computer grafica 2D e 3D interattive",
+    "attributes": [
+        {"nome": "Pirati dei Caraibi - colonna sonora (soundtrack)", "link":"https://www.youtube.com/watch?v=GspHIl_epR0"}, 
+        {"nome": "My Jolly Sailor Bold - Ashley Serena", "link":"https://www.youtube.com/watch?v=tPLodwT58nE"}, 
+        {"nome": "Davy Jones [Lyrics]", "link":"https://www.youtube.com/watch?v=n_LApFnTfP8"}
+    ],
     "links": []
   },
   {
     "id": "TheRegnant",
     "data": "Feb 2022",
     "name": "Progetto di realtà virtuale",
-    "embedYT": "I9orCtgXWSg",
-    "screenshots" : [],
+    "embedYT": "6JMb1Cj_LWs",
+    "screenshots" : [
+        
+    ],
     "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
     "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
     "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
-    "attributes": "",
-    "links": []
+    "attributes": [],
+    "links": [{"platform": "itch.io", "link" : ""}]
   },
   {
     "id": "Surveys_web_app",
@@ -56,7 +66,7 @@
     "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
     "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
     "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
-    "attributes": "",
+    "attributes": [],
     "links": []
   },
   {
@@ -68,7 +78,7 @@
     "intro": "Progetto dell'esame di informatica grafica, sviluppato in Blender 3.0.1 e 2.9.6",
     "descrizione": "Viene descritta una scena 3D ispirata alla Perla Nera del famoso film 'I pirati dei Caraibi', contenente una simil Perla Nera che affronta in mezzo all'oceano un pericoloso Kraken sorto dagli abissi.",
     "insegnamenti": "In questo corso ho imparato ad applicare le tecniche di modellazione e rendering per la creazione di scene 3D (statiche). In particolare è stata posta particolare attenzione alla modellazione, materiali, texturing, illuminazione e simulazione della fisica. Per il kraken e gli scheletri si è fatto pure il rigging, studiato individualmente.",
-    "attributes": "",
+    "attributes": [],
     "links": []
   }
 ]

@@ -1,54 +1,53 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Carousel} from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
+
 
 function ProjectPage(props) {
   props.updateTitle(props.project.name);
+  
   return (
     <>
       <div className="App mt-5">
-        <YoutubeEmbed embedId={props.project.embedYT} />
+        <YoutubeEmbed embedId={props.project.embedYT} />     
 
-        <Carousel fade>
-          <Carousel.Item>
+        <Carousel className="mt-3" interval={3000}>
+        {props.project.screenshots.map((screen, i) => (
+          <Carousel.Item key={i++}>
             <img
               className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
+              src={screen}              
+            />            
           </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
-              alt="Second slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        ))}         
         </Carousel>
-      </div>
+        
+
+        </div>
+
+        <h3 className = "mt-4"><b>Introduzione</b></h3>
+        <p>{props.project.intro}</p>
+
+        <h3 className = "mt-4"><b>Descrizione</b></h3>
+        <p>{props.project.descrizione}</p>
+
+        <h3 className = "mt-4"><b>Cosa mi ha insegnato</b></h3>
+        <p>{props.project.insegnamenti}</p>
+
+        {props.project.attributes.length !== 0 ? 
+        <>
+          <h3 className = "mt-4"><b>Attribuzioni</b></h3>
+          <p>
+            {props.project.attributes.map((a) => <><a href={a.link}>{a.nome}</a><br/></>)}
+          </p></> : <></>}
+
+          {props.project.links.length !== 0 ? 
+          <>
+          <h3 className = "mt-4"><b>Links</b></h3>
+          <p>
+            {props.project.links.map((l) => <><a href={l.link}>{l.platform}</a><br/></>)}
+          </p></> : <></>}
+      
     </>
   );
 }
