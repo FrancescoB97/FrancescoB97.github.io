@@ -4,7 +4,6 @@ const skills = [
   {name : "ANALISI E VISUALIZZAZIONE DATI", list : "Sistemi di gestione di database (DBMS) | SQL | MATLAB"},
   {name : "SISTEMI OPERATIVI", list : "Windows | Linux | Unix based systems"},
   {name : "CRITTOGRAFIA E SICUREZZA INFORMATICA", list : "Python | C"},
-  {name : "OFFICE AUTOMATION", list : "Elaborazione testi | Fogli elettronici | Software di presentazione | Suite da ufficio | Web Browser"},
   {name : "ELABORAZIONE FOTO E VIDEO", list : "Photoshop | DaVinci | GIMP"},
   {name : "ARCHITETTURE DI RETE", list : "Wireshark | Ettercap"} 
 ]  
