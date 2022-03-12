@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.29498d74.css",
-    "main.js": "/static/js/main.2e5ef70e.js",
+    "main.js": "/static/js/main.9e362ce8.js",
     "static/js/787.7af4dbd6.chunk.js": "/static/js/787.7af4dbd6.chunk.js",
     "static/media/IELTScertificazione.png": "/static/media/IELTScertificazione.7a69aef51317fdc59cff.png",
     "static/media/myPhoto.jpg": "/static/media/myPhoto.0c303edbd72cdef7a776.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/index.html",
     "static/media/ita.svg": "/static/media/ita.2e605462bd0924e1473e27a1c758a016.svg",
     "main.29498d74.css.map": "/static/css/main.29498d74.css.map",
-    "main.2e5ef70e.js.map": "/static/js/main.2e5ef70e.js.map",
+    "main.9e362ce8.js.map": "/static/js/main.9e362ce8.js.map",
     "787.7af4dbd6.chunk.js.map": "/static/js/787.7af4dbd6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29498d74.css",
-    "static/js/main.2e5ef70e.js"
+    "static/js/main.9e362ce8.js"
   ]
 }
