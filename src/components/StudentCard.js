@@ -1,7 +1,8 @@
 import './StudentCard.css'
-import { Table, Image } from "react-bootstrap";
+import { Table, Image, Accordion } from "react-bootstrap";
 import it from "./Images/ita.svg";
 import en from "./Images/eng.svg";
+import ielts from "./File/IELTScertificazione.png";
 
 const exams = [
   {data: "26/01/2021", name: "Data Science e Tecnologie per le Basi di Dati", crediti: "8", voto: "20", lang: "it"},
@@ -19,20 +20,36 @@ function StudentCardPage(props) {
   return (
     <div className="mt-5 pt-4">
       <h5>STUDENT ID: <u>282890</u></h5>
-      <h5>Istruzione</h5>           
-      <EducationTable/>
+      <h5><b>Istruzione</b></h5>           
+      <EducationTable/>      
 
-      <h5 className="mt-4 pt-4">Lingue</h5>
+      <h5 className="mt-4 pt-4"><b>Lingue</b></h5>
       <p>Lingua madre : ITALIANO</p>
       <p>Altre lingue : INGLESE</p>
       <LanguageTable/>
+      <IeltsSection/>
 
-      <h5 className="mt-4 pt-4">Esami</h5>
+      <h5 className="mt-4 pt-4"><b>Esami</b></h5>
       <p>Laurea magistrale in Ingegneria Informatica (Computer Engineering)</p>    
       <ExamsTable/>
     </div>        
   );
 }
+
+
+function IeltsSection() {        
+  return (
+      <Accordion className="accordion">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>Certificazione IELTS</Accordion.Header>
+        <Accordion.Body>
+          <Image src={ielts}/>
+        </Accordion.Body>
+      </Accordion.Item>      
+    </Accordion>
+  );
+}
+
 
 function EducationTable() {        
   return (
