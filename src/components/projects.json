@@ -87,7 +87,14 @@
     "data": "Jun 2021",
     "name": "Progetto di ingegneria del Software",
     "embedYT": "",
-    "screenshots" : [],
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen0.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen1.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen2.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen3.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen4.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen5.jpg"
+    ],
     "intro": "Progetto dell'esame di Software Engineering",
     "descrizione": "Sviluppo prima concettuale e poi direttamente al pc di un'applicazione per la gestione di un negozio alimentare di piccole dimensioni. Il tutto ha visto la definizione del requirement document, design document, GUI prototype, coding, unit testing e integration testing",
     "insegnamenti": "Corso focalizzato sulla collaborazione, ho imparato quanto sia fondamentale la buona comunicazione, il teamwork e la suddivisione dei lavori e la gestione delle tempistiche. Ho scaldato nuovamente le dita anche su Java e sugli unit test",
