@@ -3,6 +3,7 @@
 import axios from 'axios'
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
+import dayjs from 'dayjs';
 
 const config = {
   apiKey: "AIzaSyDCXhPUmQUO5eVbBYfz662lt0DjG3rtbpA",
@@ -21,13 +22,15 @@ const firestore = firebase.firestore();
 function pushViewer(data)
 {
     console.log(data)
+    console.log(dayjs().format('YYYY-MM-DD H:mm:ss'))
     const viewersRef = firestore.collection("viewers")   
     
     const sendViewer = async () => {  
         await viewersRef.add({
-            ip: data.IPv4,
+            timestamp: dayjs().format('YYYY-MM-DD H:mm:ss'),
             country: data.country_name,
-            city: data.city
+            city: data.city,
+            ip: data.IPv4  
         })
     }
     sendViewer();

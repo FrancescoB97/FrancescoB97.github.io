@@ -5,8 +5,10 @@ import proPic from "./Images/myPhoto.jpg";
 function AboutMePage(props) {
   props.updateTitle("AboutMe");
   return (
-    <>
-    <Image inline className="mx-auto d-none d-sm-block" src={proPic} roundedCircle width="200"/>
+    <div>  
+    <div className="App">
+    <Image inline className="mx-auto d-sm-block" src={proPic} roundedCircle width="200"/>
+    </div>   
     <div className="App mt-3 pt-5">     
 
         <p className="p-1">
@@ -139,7 +141,7 @@ function AboutMePage(props) {
             </div> 
       </div>
     </div>
-    </>    
+    </div>    
   );
 }
 
