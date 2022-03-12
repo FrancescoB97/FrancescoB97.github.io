@@ -12,7 +12,6 @@ import { StudentCardPage } from "./components/StudentCard";
 import { SocialsPage } from "./components/Socials";
 import { ProjectPage } from "./components/Project";
 import API from "./components/API";
-import axios from 'axios'
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import projectsThumbnail from "./components/projectsThumbnails.json";

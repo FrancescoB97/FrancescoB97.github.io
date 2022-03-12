@@ -20,9 +20,7 @@ firebase.initializeApp(config);
 const firestore = firebase.firestore();
 
 function pushViewer(data)
-{
-    console.log(data)
-    console.log(dayjs().format('YYYY-MM-DD H:mm:ss'))
+{    
     const viewersRef = firestore.collection("viewers")   
     
     const sendViewer = async () => {  
