@@ -26,7 +26,13 @@ function pushViewer(data)
     const viewersRef = firestore.collection("viewers")   
     
     const sendViewer = async () => {  
-        await viewersRef.add({
+        /*await viewersRef.add({
+            timestamp: dayjs().format('YYYY-MM-DD H:mm:ss'),
+            country: data.country_name,
+            city: data.city,
+            ip: data.IPv4  
+        })*/
+        await viewersRef.doc(data.country_code + "   " + dayjs().format('YYYY-MM-DD H:mm:ss')).set({
             timestamp: dayjs().format('YYYY-MM-DD H:mm:ss'),
             country: data.country_name,
             city: data.city,
