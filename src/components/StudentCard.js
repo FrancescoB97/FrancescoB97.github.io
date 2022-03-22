@@ -3,20 +3,20 @@ import { Table, Image, Accordion } from "react-bootstrap";
 import it from "./Images/ita.svg";
 import en from "./Images/eng.svg";
 import ielts from "./File/IELTScertificazione.png";
+import { useEffect } from 'react';
+import API from "./API";
 
-const exams = [
-  {data: "26/01/2021", name: "Data Science e Tecnologie per le Basi di Dati", crediti: "8", voto: "20", lang: "it"},
-  {data: "03/02/2021", name: "Architetture dei sistemi di elaborazione", crediti: "10", voto: "30", lang: "it"},
-  {data: "13/02/2021", name: "Tecnologie e servizi di rete", crediti: "6", voto: "26", lang: "it"},
-  {data: "24/02/2021", name: "Information systems security", crediti: "6", voto: "24", lang: "en"},
-  {data: "25/06/2021", name: "Software engineering", crediti: "8", voto: "30", lang: "en"},
-  {data: "29/06/2021", name: "Web Applications I", crediti: "6", voto: "28", lang: "en"},
-  {data: "02/07/2021", name: "Cryptography", crediti: "6", voto: "21", lang: "en"},
-  {data: "16/02/2022", name: "Realtà virtuale", crediti: "6", voto: "30", lang: "it"}  
-]
-
-function StudentCardPage(props) {
+function StudentCardPage(props) 
+{  
   props.updateTitle("Student Card");
+
+  useEffect(() => {
+    API.getExams()
+        .then( ex => {
+        props.setExams(ex);        
+    }).catch();
+  }, []);
+
   return (
     <div className="mt-5 pt-4">
       <h5>STUDENT ID: <u>282890</u></h5>
@@ -31,7 +31,7 @@ function StudentCardPage(props) {
 
       <h5 className="mt-4 pt-4"><b>Esami</b></h5>
       <p>Laurea magistrale in Ingegneria Informatica (Computer Engineering)</p>    
-      <ExamsTable/>
+      <ExamsTable exams={props.exams}/>
     </div>        
   );
 }
@@ -90,8 +90,8 @@ function LanguageTable() {
       <Table id="languageTable" striped className="table-borderless">
           <thead >
               <tr>
-                  <th colspan="2" width='4%' className="text-center">COMPRENSIONE</th>
-                  <th colspan="2" width='4%' className="text-center">ESPRESSIONE</th>
+                  <th colSpan="2" width='4%' className="text-center">COMPRENSIONE</th>
+                  <th colSpan="2" width='4%' className="text-center">ESPRESSIONE</th>
                   <th width='4%' className="text-center">SCRITTURA</th>                   
               </tr>
           </thead>
@@ -116,7 +116,9 @@ function LanguageTable() {
   );
 }
 
-function ExamsTable() {        
+function ExamsTable(props) 
+{     
+
   return (
       <Table id="languageTable" striped className="table-borderless">
           <thead >
@@ -130,7 +132,7 @@ function ExamsTable() {
           </thead>
           <tbody>
             {
-              exams.map((ex) => <ExamRow key={ex.data} exam={ex}/>)
+              props.exams.map((ex) => <ExamRow key={ex.data} exam={ex}/>)
             }                                 
           </tbody>
       </Table>
@@ -147,7 +149,7 @@ function ExamRowData(props) {
     <td >{props.exam.name}</td>
     <td style={{ "textAlign": "center" }}>{props.exam.crediti}</td>
     <td style={{ "textAlign": "center" }}>{props.exam.voto}</td>
-    <td style={{ "textAlign": "center" }}><Image inline className="mx-auto d-none d-sm-block" src={props.exam.lang == "it" ? it : en} rounded width="15"/></td>   
+    <td style={{ "textAlign": "center" }}><Image inline className="mx-auto d-none d-sm-block" src={props.exam.lingua == "it" ? it : en} rounded width="15"/></td>   
   </>;
 }
 

@@ -1,5 +1,3 @@
-//import {firebase} from 'firebase/app';
-//import 'firebase/firestore';
 import axios from 'axios'
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
@@ -24,17 +22,10 @@ function pushViewer(data)
     const viewersRef = firestore.collection("viewers")   
     
     const sendViewer = async () => {  
-        /*await viewersRef.add({
-            timestamp: dayjs().format('YYYY-MM-DD H:mm:ss'),
-            country: data.country_name,
-            city: data.city,
-            ip: data.IPv4  
-        })*/
         await viewersRef.doc(data.country_code + "   " + dayjs().format('YYYY-MM-DD H:mm:ss')).set({
             timestamp: dayjs().format('YYYY-MM-DD H:mm:ss'),
             country: data.country_name,
-            city: data.city,
-            ip: data.IPv4  
+            city: data.city,            
         })
     }
     sendViewer();
@@ -43,8 +34,16 @@ function pushViewer(data)
 const getData = async () => {    
     const res = await axios.get('https://geolocation-db.com/json/')  
     return res;   
-  }; 
+}; 
 
 
-const API = {pushViewer, getData}
+async function getExams() 
+{
+    const examRef = firestore.collection('exams')
+    const exams = await examRef.get()    
+        
+    return exams.docs.map(doc => doc.data());   
+}
+
+const API = {pushViewer, getData, getExams}
 export default API

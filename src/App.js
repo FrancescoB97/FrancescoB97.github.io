@@ -19,7 +19,8 @@ import projects from "./components/projects.json";
 
 function App() {
   const [title, setTitle] = useState("AboutMe");  
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([]);  
+  const [exams, setExams] = useState([]);     
 
   const updateTitle = (newTitle) => {
     setTitle(newTitle);
@@ -70,7 +71,7 @@ function App() {
               )} />
 
               <Route path="/StudentCard" render={() => (
-                  <StudentCardPage updateTitle={updateTitle}/>              
+                  <StudentCardPage updateTitle={updateTitle} exams={exams} setExams={setExams}/>              
               )} />
 
               <Route path="/Socials" render={() => (
