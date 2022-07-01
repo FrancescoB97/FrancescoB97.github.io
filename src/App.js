@@ -1,6 +1,7 @@
+import { useTranslation } from "react-i18next";
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 import { Col, Row, Container } from "react-bootstrap";
 import { useState, useEffect } from 'react';
 import AppSidebar from "./components/AppSidebar";
@@ -17,7 +18,10 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import projectsThumbnail from "./components/projectsThumbnails.json";
 import projects from "./components/projects.json";
 
+
 function App() {
+  const { t } = useTranslation();
+
   const [title, setTitle] = useState("AboutMe");  
   const [data, setData] = useState([]);  
   const [exams, setExams] = useState([]);     
@@ -35,7 +39,12 @@ function App() {
   // mount
   useEffect(() => {       
     if(data.length !== 0)  
-      API.pushViewer(data.data)    
+      API.pushViewer(data.data)   
+      //set language by data? 
+      /*
+        data.country_code == "it" ? i18next.changeLanguage("it") : i18next.changeLanguage("en");
+      */
+     
   }, [data.length]);
 
   
@@ -52,18 +61,18 @@ function App() {
             <Switch>
               <Col md={7}>
 
-              <h2><b>{title}</b></h2>
+              <h2><b>{title}</b></h2>             
 
               <Route exact path="/" render={() => (
                 <Redirect to='/AboutMe' />
               )} />
 
               <Route path="/AboutMe" render={() => (
-                  <AboutMePage updateTitle={updateTitle}/>                  
+                  <AboutMePage t={t} updateTitle={updateTitle}/>                  
               )} />
 
               <Route path="/Skills" render={() => (
-                  <SkillsPage updateTitle={updateTitle}/>              
+                  <SkillsPage t={t} updateTitle={updateTitle}/>              
               )} />
 
               <Route exact path="/Portfolio" render={() => (

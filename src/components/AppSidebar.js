@@ -9,6 +9,7 @@ import {
 } from "./SideBarButton";
 
 function AppSidebar(props) {
+  
   return (
     <div className = "ms-3">
       <Nav id="filters-nav">
