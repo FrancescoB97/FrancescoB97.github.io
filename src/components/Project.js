@@ -24,18 +24,18 @@ function ProjectPage(props) {
         </Carousel>  : <></>}      
         </div>
 
-        <h3 className = "mt-4"><b>Introduzione</b></h3>
+        <h3 className = "mt-4"><b>{props.t("proj_intoduction")}</b></h3>
         <p>{props.project.intro}</p>
 
-        <h3 className = "mt-4"><b>Descrizione</b></h3>
+        <h3 className = "mt-4"><b>{props.t("proj_description")}</b></h3>
         <p>{props.project.descrizione}</p>
 
-        <h3 className = "mt-4"><b>Cosa mi ha insegnato</b></h3>
+        <h3 className = "mt-4"><b>{props.t("proj_teaching")}</b></h3>
         <p>{props.project.insegnamenti}</p>
 
         {props.project.attributes.length !== 0 ? 
         <>
-          <h3 className = "mt-4"><b>Attribuzioni</b></h3>
+          <h3 className = "mt-4"><b>{props.t("proj_attributions")}</b></h3>
           <p>
             {props.project.attributes.map((a) => <><a href={a.link}>{a.nome}</a><br/></>)}
           </p></> : <></>}

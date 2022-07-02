@@ -1,3 +1,4 @@
+import i18next from 'i18next';
 import { Button, Tooltip, OverlayTrigger } from "react-bootstrap";
 
 function SocialsPage(props) {
@@ -9,7 +10,7 @@ function SocialsPage(props) {
 
   return (
     <>
-    <h4>Potete trovarmi nei seguenti indirizzi </h4>
+    <h4>{props.t('social_title')}</h4>
     <div className="mt-5 pt-4">
 
       <div>   
@@ -18,7 +19,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Copia negli appunti
+            Copy to the clipboard
           </Tooltip>
         )}
         placement="bottom">
@@ -34,7 +35,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Copia negli appunti
+            Copy to the clipboard
           </Tooltip>
         )}
         placement="bottom">
@@ -51,7 +52,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -66,7 +67,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -82,7 +83,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -99,7 +100,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -121,7 +122,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -138,7 +139,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -153,7 +154,7 @@ function SocialsPage(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Apri in una nuova scheda
+            Open in a new tab
           </Tooltip>
         )}
         placement="bottom">
@@ -165,8 +166,11 @@ function SocialsPage(props) {
         </Button></OverlayTrigger>      
       </div>
 
-      <h4 className="mt-4 pt-4">Scarica il mio CV in formato pdf</h4>
-          <a href="https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/CV.pdf">Download</a>
+      <h4 className="mt-4 pt-4">{props.t('download_header')}</h4>
+      <div className="mt-4">       
+          <a className={i18next.language === "en" ? "projectcorners mx-4" : "mx-4"} href="https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/CV_en/CV-Francesco_Bonini.pdf">Download ENGLISH</a>
+          <a className={i18next.language === "it" ? "projectcorners mx-4" : "mx-4"} href="https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/CV_it/CV-Francesco_Bonini.pdf">Download ITALIANO</a>
+      </div>
     </div>
     </>     
   );

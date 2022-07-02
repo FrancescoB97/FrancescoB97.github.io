@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 
+
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Container } from "react-bootstrap";
@@ -15,9 +16,11 @@ import { ProjectPage } from "./components/Project";
 import API from "./components/API";
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
-import projectsThumbnail from "./components/projectsThumbnails.json";
-import projects from "./components/projects.json";
-
+import projectsThumbnail_en from "./components/File/projectsThumbnails_en.json";
+import projects_en from "./components/File/projects_en.json";
+import projectsThumbnail_it from "./components/File/projectsThumbnails_it.json";
+import projects_it from "./components/File/projects_it.json";
+import i18next from 'i18next';
 
 function App() {
   const { t } = useTranslation();
@@ -76,22 +79,19 @@ function App() {
               )} />
 
               <Route exact path="/Portfolio" render={() => (
-                  <PortfolioPage updateTitle={updateTitle} projects ={projectsThumbnail}/>              
+                  <PortfolioPage t={t} updateTitle={updateTitle} projects ={i18next.language == "en" ? projectsThumbnail_en : projectsThumbnail_it}/>              
               )} />
 
               <Route path="/StudentCard" render={() => (
-                  <StudentCardPage updateTitle={updateTitle} exams={exams} setExams={setExams}/>              
+                  <StudentCardPage t={t} updateTitle={updateTitle} exams={exams} setExams={setExams}/>              
               )} />
 
               <Route path="/Socials" render={() => (
-                  <SocialsPage updateTitle={updateTitle}/>              
+                  <SocialsPage t={t} updateTitle={updateTitle}/>              
               )} />
 
-              <Route exact path="/Portfolio/:ID" render={({ match }) => (
-                <>{projects.length === 0 ? <Redirect to="/" /> :   
-                        <ProjectPage updateTitle={updateTitle} project={projects.filter((p) => p.id === match.params.ID)[0]}/>
-                }
-                </>
+              <Route exact path="/Portfolio/:ID" render={({ match }) => (               
+                <ProjectPage t={t} updateTitle={updateTitle} project={i18next.language == "en" ? projects_en.filter((p) => p.id === match.params.ID)[0] : projects_it.filter((p) => p.id === match.params.ID)[0]}/>
               )}/>         
                 
               </Col>

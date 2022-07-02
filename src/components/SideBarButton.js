@@ -11,7 +11,7 @@ function AboutMeBtn(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Su di Me
+            About me
           </Tooltip>
         )}
         placement="right">
@@ -90,7 +90,7 @@ function StudentCardBtn(props) {
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
           <Tooltip {...props}>
-            Libretto studente
+            Student Card
           </Tooltip>
         )}
         placement="right">

@@ -1,0 +1,104 @@
+[
+  {
+    "id": "TheBlackPearl_blender",
+    "data": "Mar 2022",
+    "name": "Computer Graphics: Blender",
+    "embedYT": "I9orCtgXWSg",
+    "screenshots" : [
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/IG_blender/Render1.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/IG_blender/Render2.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/IG_blender/Render3.png"
+    ],
+    "intro": "Project of Computer Graphics course at Politecnico of Turin, developed in Blender 3.0.1 and 2.9.6",
+    "descrizione": "A 3D scene inspired by the black pearl of the famous film 'The Pirates of the Caribbean' is described, containing a similar black pearl that faces a dangerous Kraken in the middle of the ocean arose by the abysses.",
+    "insegnamenti": "In this course, I learned to apply modeling and rendering techniques for the creation of 3D (static) scenes. In particular, special attention was paid to modeling, materials, texturing, lighting, and simulation of physics. For the Kraken and the skeletons, there was also rigging, designed individually.",
+    "attributes": [],
+    "links": []
+  },
+  {
+    "id": "TheBlackPearl_openGL",
+    "data": "Mar 2022",
+    "name": "Computer Graphics: OpenGL",
+    "embedYT": "6Qcr9eu0rkc",
+    "screenshots" : [],
+    "intro": "Project of Computer Graphics course at Politecnico of Turin: interactive application developed in openGL and glut",
+    "descrizione": "Retro style game, written in OpenGL and C/C ++, in which the user must obtain the highest possible score, dodging rocks, shooting the Kraken, and paying attention to the mermaids. There are bonuses, such as the treasure, which increases the score, and malus, like the siren that switches the control keys. All spiced with an increase in speed of the incremental game that makes the experience more difficult and challenging",
+    "insegnamenti": "In this course, I learned the low-level specifications for the production of 2D and 3D interactive applications",
+    "attributes": [
+        {"nome": "Pirates of Caribbean - soundtrack", "link":"https://www.youtube.com/watch?v=GspHIl_epR0"}, 
+        {"nome": "My Jolly Sailor Bold - Ashley Serena", "link":"https://www.youtube.com/watch?v=tPLodwT58nE"}, 
+        {"nome": "Davy Jones [Lyrics]", "link":"https://www.youtube.com/watch?v=n_LApFnTfP8"}
+    ],
+    "links": []
+  },
+  {
+    "id": "TheRegnant",
+    "data": "Feb 2022",
+    "name": "Virtual Reality",
+    "embedYT": "6JMb1Cj_LWs",
+    "screenshots" : [
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen1.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen2.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen3.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen4.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen5.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/TheRegnant/Screen6.jpg"
+    ],
+    "intro": "Project of Virtual Reality course at Politecnico of Turin, made by a team of 5 engineers (me, 2 multimedia and 2 design)",
+    "descrizione": "Due to Covid and the absence of headsets, we restricted ourselves to developing a desktop application, of a didactic nature, to allow to live an immersive experience regarding the fascinating and extremely complex life of ants",
+    "insegnamenti": "This is perhaps the course in which I learned more notions than ever. In addition to the theoretical aspects of VR/AR/AX and the cruel world of ants, I acquired Team Manager skills, as I found myself having to manage the various operations and exploit the previous skills of my companions to carry out the job in the most way effective possible. Moreover, I had the opportunity to learn a game engine like Unity that had fascinated me since the time of high school. In this course, I learned navigation and interaction in virtual environments, physical simulations, autonomous agents, spatialized audio, and techniques to optimize. Autonomously, I deepened on Coroutines, the use of the Dotween library, and obtained a base knowledge of asynchronous calls. Allow me to say to be responsible for the entire code section. I, therefore, found myself developing the skills in Blender, Unity, C#, Audacity, and DaVinci",
+    "attributes": [
+        {"nome": "Formiche. Storia di un’esplorazione scientifica-Adelphi (1997)", "link":"https://www.adelphi.it/libro/9788845913075"},        
+        {"nome": "All those relating to the game are available on the ITCH website", "link":"https://theregnant.itch.io/the-regnant"}      
+    ],
+    "links": [{"platform": "itch.io", "link" : "https://theregnant.itch.io/the-regnant"}]
+  },
+  {
+    "id": "Surveys_web_app",
+    "data": "Jul 2021",
+    "name": "Project of Web Application course at Politecnico of Turin",
+    "embedYT": "",
+    "screenshots" : [
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen1.png",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen2.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen3.jpg",
+        "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Surveys_web_app/Screen4.jpg"
+    ],
+    "intro": "Website of Survey management in React Bootstrap, handling fontend and backend",
+    "descrizione": "Creation of a frontend interface for the management of surveys, with the possibility to create, edit, and delete. Each user has his account and the related credentials and can only see the answers to the survey he has created. Unauthenticated users will see the various surveys they can answer",
+    "insegnamenti": "Course with group laboratories and individual project that taught me to work collaboratively with other people directly on Visual Studio with Live Share. In summary I learned to develop web interfaces via React - Bootstrap and Javascript, but I also obtained a base of the backend, writing and then recalling the various functions with API and reading the data by interrogating an SQL database.",
+    "attributes": "",
+    "links": []
+  }
+  ,{
+    "id": "BlindLabyrinth",
+    "data": "Jan 2021",
+    "name": "Project of Computer Architecture course at Politecnico of Turin",
+    "embedYT": "X16wgaUkHiA",
+    "screenshots" : [],
+    "intro": "Application for Keil uVision emulator of LandTiger board",
+    "descrizione": "Due to Covid, we had to carry out the entire project on an emulator of the Landiger card offered by the Polytechnic of Turin to simulate its behavior. The application consists of a game, where a robot capable of \"seeing \" only via proximity sensors. So based on the LED flashing frequency on the card you can guess the direction to go. The game ends once the exit is reached.",
+    "insegnamenti": "In this course I learned an extremely low level of programming, such as Assembly. At one point we were able to integrate it with the C to develop more complex behaviors.",
+    "attributes": [],
+    "links": []
+  },
+  {
+    "id": "EzShop",
+    "data": "Jun 2021",
+    "name": "Project of Software Engineering course at Politecnico of Turin",
+    "embedYT": "",
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen0.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen1.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen2.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen3.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen4.png",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Sweng/Screen5.png"
+    ],
+    "intro": "Ezshop: application for small shops to support owners and managers",
+    "descrizione": "First conceptual development and then an application for the management of a small food shop. Everything include the definition of the Requirement Document, Design Document, GUI Prototype, Coding, Unit Testing, and Integration Testing.",
+    "insegnamenti": "The course focused on collaboration, I learned how fundamental good communication, teamwork and the division of work and the management of the timing are. I also warmed my fingers on Java and Unit Test",
+    "attributes": [],
+    "links": []
+  }
+]

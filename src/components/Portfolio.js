@@ -7,12 +7,11 @@ function PortfolioPage(props) {
   return (
     <div className="mt-5 pt-4">
       <div className="d-flex flex-wrap justify-content-around">
-        {props.projects.map((p) => <AddProject project={p}/>)}
+        {props.projects.map((p) => <AddProject t={props.t} project={p}/>)}
         <div className="d-flex justify-content-around mt-5 pt-5">
 
         <div className="m-3">
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
+        <Card style={{ width: "18rem" }}>          
           <Card.Body>
             <Placeholder as={Card.Title} animation="glow">
               <Placeholder xs={6} />
@@ -39,7 +38,7 @@ function AddProject(props)
   return(
       <div className="m-3 projectcorners">
       <small>{props.project.data}</small>
-        <div style={{ width: "18rem" , "background-color": "honeydew"}}>
+        <div style={{ width: "18rem" , "background-color": "whitesmoke"}}>
           <Card.Img variant="top" src={props.project.propic} />
           <Card.Body>
             <Card.Title><b>{props.project.name}</b></Card.Title>
@@ -47,7 +46,7 @@ function AddProject(props)
             {props.project.breveDescrizione}             
             </Card.Text>
             <div style={{ "textAlign": "center"}}>
-              {props.project.page ? <Link to={"/Portfolio/" + props.project.id}><Button variant="danger">Vai</Button></Link> : <></>} 
+              {props.project.page ? <Link to={"/Portfolio/" + props.project.id}><Button variant="danger">{props.t("proj_thumb_btn")}</Button></Link> : <></>} 
             </div>            
           </Card.Body>
         </div>

@@ -37,10 +37,11 @@ const getData = async () => {
 }; 
 
 
-async function getExams() 
+async function getExams(lang) 
 {
-    const examRef = firestore.collection('exams')
+    const examRef = firestore.collection(`exams_${lang}`)
     const exams = await examRef.get()    
+
         
     return exams.docs.map(doc => doc.data());   
 }

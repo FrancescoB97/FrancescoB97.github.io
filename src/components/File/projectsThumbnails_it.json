@@ -16,6 +16,14 @@
     "page": true
   },
   {
+    "id": "HappyHippoSpot",
+    "propic": "",
+    "data": "Jul 2022",
+    "name": "Computer animation",
+    "breveDescrizione": "In arrivo il remake della pubblicità dell'happy hippo",
+    "page": false
+  },
+  {
     "id": "TheRegnant",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/RV.jpg",
     "data": "Feb 2022",

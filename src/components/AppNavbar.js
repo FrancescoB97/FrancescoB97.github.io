@@ -3,17 +3,6 @@ import { Navbar, Image, Button } from "react-bootstrap";
 import it from "./Images/ita.svg";
 import en from "./Images/eng.svg";
 
-const languages = [
-  {
-    code: "en",
-    img: en
-  },
-  {
-    code: "it",
-    img: it
-  }
-];
-
 function AppNavbar() {
   return (
     <Navbar className="justify-content-end" variant="light" expand="sm">       

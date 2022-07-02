@@ -18,8 +18,38 @@
         {"name" : "ELABORAZIONE FOTO E VIDEO/COMPUTER VISION", "list" : "Photoshop | DaVinci | GIMP | Python"},
         {"name" : "ARCHITETTURE DI RETE", "list" : "Wireshark | Ettercap"} ,
         {"name" : "INTERNET VIDEO STREAMING", "list" : "Audio codecs | Video codecs | Multimedia apps over internet"} 
-    ]    
+    ],
+    "proj_thumb_btn" : "Apri",  
+    "proj_intoduction" : "Introduzione",
+    "proj_description" : "Descrizione",
+    "proj_teaching" : "Cosa mi ha insegnato",
+    "proj_attributions" : "Attribuzioni",
+    "education_title" : "Formazione",
+    "diploma_title" : "Diploma MATURITA' SCIENTIFICA - OPZIONE SCIENZE APPLICATE",
+    "banchelor_title" : "Laurea triennale in Ingegneria Informatica",
+    "banchelor_location" : "Politecnico di Torino",
+    "master_title" : "Laurea magistrale in Ingegneria Informatica (Computer Engineering)",
+    "master_spec" : "GRAFICA E MULTIMEDIA",
+    "master_location" : "Politecnico di Torino",
+    "language_title" : "Lingue",
+    "mather_tongue" : "Lingua madre : ITALIANO",
+    "other_languages" : "Altre lingue : INGLESE",
+    "ielts_u" : "COMPRENSIONE", 
+    "ielts_s" : "ESPRESSIONE", 
+    "ielts_w" : "SCRITTURA", 
+    "ielts_u_l" : "Ascolto", 
+    "ielts_u_r" : "Lettura", 
+    "ielts_s_si" : "Interaz. orale", 
+    "ielts_s_sp" : "Produz. orale", 
+    "ielts_cert" : "Certificazione IELTS",
+    "exams_title" : "Esami",
+    "exam_date" : "Data", 
+    "exam_exam" : "Esame", 
+    "exam_credits" : "Crediti", 
+    "exam_mark" : "Voto", 
+    "exam_lang" : "Lingua",
+    "social_title" : "Potete trovarmi nei seguenti indirizzi",
+    "clipboard_tip" : "Copia negli appunti",
+    "tab_tip" : "Apri in una nuova scheda",
+    "download_header" : "Scarica il mio CV in formato pdf"
 }
-
-
-
