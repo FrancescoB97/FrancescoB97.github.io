@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.29498d74.css",
-    "main.js": "/static/js/main.c4ed57b0.js",
+    "main.css": "/static/css/main.8ec0a5a0.css",
+    "main.js": "/static/js/main.303072cb.js",
     "static/js/787.7af4dbd6.chunk.js": "/static/js/787.7af4dbd6.chunk.js",
-    "static/media/IELTScertificazione.png": "/static/media/IELTScertificazione.7a69aef51317fdc59cff.png",
+    "static/media/IELTScertificazione_en.png": "/static/media/IELTScertificazione_en.e62d283997f9d1720698.png",
+    "static/media/IELTScertificazione_it.png": "/static/media/IELTScertificazione_it.7a69aef51317fdc59cff.png",
     "static/media/myPhoto.jpg": "/static/media/myPhoto.0c303edbd72cdef7a776.jpg",
     "static/media/eng.svg": "/static/media/eng.a9bd2845fd9be96eaf964a5e7c68239f.svg",
     "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
     "static/media/ita.svg": "/static/media/ita.2e605462bd0924e1473e27a1c758a016.svg",
-    "main.29498d74.css.map": "/static/css/main.29498d74.css.map",
-    "main.c4ed57b0.js.map": "/static/js/main.c4ed57b0.js.map",
+    "main.8ec0a5a0.css.map": "/static/css/main.8ec0a5a0.css.map",
+    "main.303072cb.js.map": "/static/js/main.303072cb.js.map",
     "787.7af4dbd6.chunk.js.map": "/static/js/787.7af4dbd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.29498d74.css",
-    "static/js/main.c4ed57b0.js"
+    "static/css/main.8ec0a5a0.css",
+    "static/js/main.303072cb.js"
   ]
 }
