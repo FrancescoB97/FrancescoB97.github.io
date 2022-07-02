@@ -94,7 +94,7 @@ function StudentCardBtn(props) {
           </Tooltip>
         )}
         placement="right">
-      <Link to="/StudentCard"><Button variant={props.title === "StudentCard" ?  "dark" : "outline-dark"} id="add-survey-btn">
+      <Link to="/StudentCard"><Button variant={props.title === "Student Card" ?  "dark" : "outline-dark"} id="add-survey-btn">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
