@@ -17,11 +17,11 @@
   },
   {
     "id": "HappyHippoSpot",
-    "propic": "",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/HappyHippoSpot.jpg",
     "data": "Jul 2022",
-    "name": "Computer animation",
-    "breveDescrizione": "In arrivo il remake della pubblicità dell'happy hippo",
-    "page": false
+    "name": "Computer Animation",
+    "breveDescrizione": "Replica della pubblicità del Kinder Happy Hippo",
+    "page": true
   },
   {
     "id": "TheRegnant",

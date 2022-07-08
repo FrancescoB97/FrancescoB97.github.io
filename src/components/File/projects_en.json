@@ -32,6 +32,24 @@
     "links": []
   },
   {
+    "id": "HappyHippoSpot",
+    "data": "Jul 2022",
+    "name": "Project di Computer Animation",
+    "embedYT": "Tmopv2N2nVM",
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/1.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/2.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/3.jpg"
+    ],
+    "intro": "Computer animation exam project: animation with blender 2.83", 
+    "descrizione": "Realisation in Blender 2.83 of the Happy Hippo commercial held at the Polytechnic of Turin in teamwork with two other course students",
+    "insegnamenti": "In this course I learnt how to make a video with the use of modelling, animation and rendering software tools. Special emphasis on rigging, weight paint, various animation methods and particle systems",
+    "attributes": [
+        {"nome": "The Tokens - The Lion Sleeps Tonight (Wimoweh)", "link":"https://www.youtube.com/watch?v=OQlByoPdG6c"}
+    ],
+    "links": []
+  },
+  {
     "id": "TheRegnant",
     "data": "Feb 2022",
     "name": "Virtual Reality",

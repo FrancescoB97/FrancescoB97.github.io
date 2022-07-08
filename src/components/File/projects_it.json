@@ -32,6 +32,20 @@
     "links": []
   },
   {
+    "id": "HappyHippoSpot",
+    "data": "Jul 2022",
+    "name": "Progetto di Computer Animation",
+    "embedYT": "Tmopv2N2nVM",
+    "screenshots" : [],
+    "intro": "Progetto dell'esame di computer animation: animazione con blender 2.83",
+    "descrizione": "Realizzazione in blender 2.83 dello spot Happy Hippo in teamwork insieme ad altri due ragazzi del corso",
+    "insegnamenti": "In questo corso ho imparato a realizzare un video con l’uso di strumenti software di modellazione, animazione e rendering. Particolari enfasi su rigging, weight paint, vari metodi di animazione e sistemi particellari",
+    "attributes": [
+        {"nome": "The Tokens - The Lion Sleeps Tonight (Wimoweh)", "link":"https://www.youtube.com/watch?v=OQlByoPdG6c"}
+    ],
+    "links": []
+  },
+  {
     "id": "TheRegnant",
     "data": "Feb 2022",
     "name": "Progetto di realtà virtuale",
