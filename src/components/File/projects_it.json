@@ -36,7 +36,13 @@
     "data": "Jul 2022",
     "name": "Progetto di Computer Animation",
     "embedYT": "Tmopv2N2nVM",
-    "screenshots" : [],
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/1.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/2.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/3.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/4.jpg",
+      "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/HappyHippoSpot/5.jpg"
+    ],
     "intro": "Progetto dell'esame di computer animation: animazione con blender 2.83",
     "descrizione": "Realizzazione in blender 2.83 dello spot Happy Hippo in teamwork insieme ad altri due ragazzi del corso",
     "insegnamenti": "In questo corso ho imparato a realizzare un video con l’uso di strumenti software di modellazione, animazione e rendering. Particolari enfasi su rigging, weight paint, vari metodi di animazione e sistemi particellari",
