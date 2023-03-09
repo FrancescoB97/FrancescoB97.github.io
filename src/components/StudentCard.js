@@ -10,7 +10,10 @@ import API from "./API";
 
 function StudentCardPage(props) 
 {  
-  props.updateTitle("Student Card");
+  
+  useEffect(() => {
+    props.updateTitle("Student Card");
+  }, []); 
 
   useEffect(() => {
     API.getExams(i18next.language)
@@ -151,7 +154,7 @@ function ExamRowData(props) {
     <td >{props.exam.name}</td>
     <td style={{ "textAlign": "center" }}>{props.exam.crediti}</td>
     <td style={{ "textAlign": "center" }}>{props.exam.voto}</td>
-    <td style={{ "textAlign": "center" }}><Image inline className="mx-auto d-none d-sm-block" src={props.exam.lingua == "it" ? it : en} rounded width="15"/></td>   
+    <td style={{ "textAlign": "center" }}><Image inline="true" className="mx-auto d-none d-sm-block" src={props.exam.lingua == "it" ? it : en} rounded width="15"/></td>   
   </>;
 }
 

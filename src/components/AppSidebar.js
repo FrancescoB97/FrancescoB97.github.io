@@ -11,7 +11,7 @@ import {
 function AppSidebar(props) {
   
   return (
-    <div className = "ms-3">
+    <div>
       <Nav id="filters-nav">
         <ListGroup as="ul" id="filters-nav-list">
           

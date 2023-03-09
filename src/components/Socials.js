@@ -1,8 +1,12 @@
 import i18next from 'i18next';
+import { useEffect } from 'react';
 import { Button, Tooltip, OverlayTrigger } from "react-bootstrap";
 
 function SocialsPage(props) {
-  props.updateTitle("Socials");
+  
+  useEffect(() => {
+    props.updateTitle("Socials");
+  }, []); 
 
   const openInNewTab = (link) => {
     window.open(link);

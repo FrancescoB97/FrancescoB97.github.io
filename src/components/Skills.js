@@ -1,5 +1,9 @@
+import { useEffect } from "react";
 function SkillsPage(props) {
-  props.updateTitle("Skills");
+  useEffect(() => {
+    props.updateTitle("Skills");
+  }, []); 
+ 
   return (
     <div className="mt-5 pt-4">
       {props.t("skills", { returnObjects: true }) ? Array.from(props.t('skills', { returnObjects: true })).map((s) => <SkillField name={s.name} list={s.list}/>) : <></>}  

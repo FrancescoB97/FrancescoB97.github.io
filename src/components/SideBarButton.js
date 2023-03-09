@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function AboutMeBtn(props) {  
   return (
-    <>
+    <div className="w-auto h-auto">
       <OverlayTrigger
         delay={{ hide: 450, show: 300 }}
         overlay={(props) => (
@@ -15,7 +15,7 @@ function AboutMeBtn(props) {
           </Tooltip>
         )}
         placement="right">
-      <Link to="/"><Button variant={props.title === "AboutMe" ?  "dark" : "outline-dark"} id="add-survey-btn">
+      <Link to="/"><Button variant={props.title === "AboutMe" ?  "dark" : "outline-dark"} id="btn-style" >
         <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-fingerprint" viewBox="0 0 16 16">
           <path d="M8.06 6.5a.5.5 0 0 1 .5.5v.776a11.5 11.5 0 0 1-.552 3.519l-1.331 4.14a.5.5 0 0 1-.952-.305l1.33-4.141a10.5 10.5 0 0 0 .504-3.213V7a.5.5 0 0 1 .5-.5Z" />
           <path d="M6.06 7a2 2 0 1 1 4 0 .5.5 0 1 1-1 0 1 1 0 1 0-2 0v.332c0 .409-.022.816-.066 1.221A.5.5 0 0 1 6 8.447c.04-.37.06-.742.06-1.115V7Zm3.509 1a.5.5 0 0 1 .487.513 11.5 11.5 0 0 1-.587 3.339l-1.266 3.8a.5.5 0 0 1-.949-.317l1.267-3.8a10.5 10.5 0 0 0 .535-3.048A.5.5 0 0 1 9.569 8Zm-3.356 2.115a.5.5 0 0 1 .33.626L5.24 14.939a.5.5 0 1 1-.955-.296l1.303-4.199a.5.5 0 0 1 .625-.329Z" />
@@ -24,7 +24,7 @@ function AboutMeBtn(props) {
           <path d="M4.81 1.37A6.5 6.5 0 0 1 14.56 7a.5.5 0 1 1-1 0 5.5 5.5 0 0 0-8.25-4.765.5.5 0 0 1-.5-.865Zm-.89 1.257a.5.5 0 0 1 .04.706A5.478 5.478 0 0 0 2.56 7a.5.5 0 0 1-1 0c0-1.664.626-3.184 1.655-4.333a.5.5 0 0 1 .706-.04ZM1.915 8.02a.5.5 0 0 1 .346.616l-.779 2.767a.5.5 0 1 1-.962-.27l.778-2.767a.5.5 0 0 1 .617-.346Zm12.15.481a.5.5 0 0 1 .49.51c-.03 1.499-.161 3.025-.727 4.533l-.07.187a.5.5 0 0 1-.936-.351l.07-.187c.506-1.35.634-2.74.663-4.202a.5.5 0 0 1 .51-.49Z" />
         </svg>
       </Button></Link></OverlayTrigger>
-    </>
+    </div>
   );
 }
 
@@ -39,7 +39,7 @@ function SkillsBtn(props) {
           </Tooltip>
         )}
         placement="right">
-      <Link to="/Skills"><Button variant={props.title === "Skills" ?  "dark" : "outline-dark"} id="add-survey-btn">
+      <Link to="/Skills"><Button variant={props.title === "Skills" ?  "dark" : "outline-dark"} id="btn-style">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -67,7 +67,7 @@ function PortfolioBtn(props) {
           </Tooltip>
         )}
         placement="right">
-      <Link to="/Portfolio"><Button variant={props.title === "Portfolio" ?  "dark" : "outline-dark"} id="add-survey-btn">
+      <Link to="/Portfolio"><Button variant={props.title === "Portfolio" ?  "dark" : "outline-dark"} id="btn-style">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -94,7 +94,7 @@ function StudentCardBtn(props) {
           </Tooltip>
         )}
         placement="right">
-      <Link to="/StudentCard"><Button variant={props.title === "Student Card" ?  "dark" : "outline-dark"} id="add-survey-btn">
+      <Link to="/StudentCard"><Button variant={props.title === "Student Card" ?  "dark" : "outline-dark"} id="btn-style">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"
@@ -122,7 +122,7 @@ function SocialsBtn(props) {
           </Tooltip>
         )}
         placement="right">
-      <Link to="/Socials"><Button variant={props.title === "Socials" ?  "dark" : "outline-dark"} id="add-survey-btn">
+      <Link to="/Socials"><Button variant={props.title === "Socials" ?  "dark" : "outline-dark"} id="btn-style">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="48"

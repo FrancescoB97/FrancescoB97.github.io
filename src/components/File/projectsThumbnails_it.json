@@ -1,5 +1,13 @@
 [
   {
+    "id": "Tesi",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Thesis.png",
+    "data": "Feb 2023",
+    "name": "Virtual respiratory endoscopy system for educational applications",
+    "breveDescrizione": "Tesi magistrale di ricerca al Politecnico di Torino",
+    "page": false
+  },
+  {
     "id": "TheBlackPearl_blender",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
     "data": "Mar 2022",
@@ -22,7 +30,7 @@
     "name": "Computer Animation",
     "breveDescrizione": "Replica della pubblicità del Kinder Happy Hippo",
     "page": true
-  },
+  },  
   {
     "id": "TheRegnant",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/RV.jpg",
@@ -30,6 +38,14 @@
     "name": "Realtà Virtuale",
     "breveDescrizione": "Applicazione desktop di natura didattica per scoprire il complesso e affascinante mondo delle formiche a partire dal loro punto di vista",
     "page": true
+  },
+  {
+    "id": "ComputerVision_project",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/CV_project.jpg",
+    "data": "Gen 2023",
+    "name": "Image Processing and Computer Vision: OpenCV & Python",
+    "breveDescrizione": "Applicazione di riconoscimento gestuale",
+    "page": false
   },
   {
     "id": "Surveys_web_app",

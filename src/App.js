@@ -57,12 +57,12 @@ function App() {
         <div id="body" className="pt-3 px-3">
           <AppNavbar />
           <Row>
-            <Col md={3}>
+            <Col xs={3}>
               <AppSidebar title={title}/>
             </Col>
 
             <Switch>
-              <Col md={7}>
+              <Col xs={7}>
 
               <h2><b>{title}</b></h2>             
 
