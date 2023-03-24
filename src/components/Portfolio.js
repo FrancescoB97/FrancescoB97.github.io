@@ -64,7 +64,7 @@ function AddThesis(props)
   return(
       <div className="m-4 thesiscorners ">
       <small>{props.project.data}</small>
-        <div className="d-flex justify-content-center">
+        <div style={{"background-color": "whitesmoke"}}>
           <Card.Img variant="top" src={props.project.propic} />
           <Card.Body>
             <Card.Title><b>{props.project.name}</b></Card.Title>
