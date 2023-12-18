@@ -48,7 +48,8 @@ function IeltsSection(props) {
       <Accordion.Item eventKey="0">
         <Accordion.Header>{props.t("ielts_cert")}</Accordion.Header>
         <Accordion.Body>
-          <Image src={i18next.language === "en" ? ielts_en : ielts_it}/>
+          <Image src={i18next.language === "en" ? ielts_en : ielts_it}
+                 style={{ maxWidth: '100%', height: 'auto' }}/>
         </Accordion.Body>
       </Accordion.Item>      
     </Accordion>

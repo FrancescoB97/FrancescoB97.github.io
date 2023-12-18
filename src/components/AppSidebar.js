@@ -5,6 +5,7 @@ import {
   SkillsBtn,
   PortfolioBtn,
   StudentCardBtn,
+  ProfessionalCardBtn,
   SocialsBtn,
 } from "./SideBarButton";
 
@@ -25,8 +26,11 @@ function AppSidebar(props) {
             <PortfolioBtn title={props.title}/>
           </NavLink>
           <NavLink as="li" className="myContainer">
-            <StudentCardBtn title={props.title}/>
+            <ProfessionalCardBtn title={props.title}/>
           </NavLink>
+          <NavLink as="li" className="myContainer">
+            <StudentCardBtn title={props.title}/>
+          </NavLink>          
           <NavLink as="li" className="myContainer">
             <SocialsBtn title={props.title}/>
           </NavLink>

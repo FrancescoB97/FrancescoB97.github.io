@@ -11,6 +11,7 @@ import { AboutMePage } from "./components/AboutMe";
 import { SkillsPage } from "./components/Skills";
 import { PortfolioPage } from "./components/Portfolio";
 import { StudentCardPage } from "./components/StudentCard";
+import { ProfessionalCardPage } from "./components/ProfessionalCard";
 import { SocialsPage } from "./components/Socials";
 import { ProjectPage } from "./components/Project";
 import API from "./components/API";
@@ -81,6 +82,10 @@ function App() {
               <Route exact path="/Portfolio" render={() => (
                   <PortfolioPage t={t} updateTitle={updateTitle} projects ={i18next.language == "en" ? projectsThumbnail_en : projectsThumbnail_it}/>              
               )} />
+
+                <Route path="/ProfessionalCard" render={() => (
+                    <ProfessionalCardPage t={t} updateTitle={updateTitle}/>
+                )} />
 
               <Route path="/StudentCard" render={() => (
                   <StudentCardPage t={t} updateTitle={updateTitle} exams={exams} setExams={setExams}/>              
