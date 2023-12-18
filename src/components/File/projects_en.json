@@ -40,8 +40,27 @@
     "insegnamenti": "Unreal Engine, Character Movement Component, Lyra Project",
     "attributes": [],
     "links": [
-      {"platform": "GitHub page with full project and description", "link" : "https://github.com/francescob97/LyraStarterGameEx1"},
+      {"platform": "GitHub page with full project and documentation", "link" : "https://github.com/francescob97/LyraStarterGameEx1"},
       {"platform": "Google Drive folder with videos", "link" : "https://drive.google.com/drive/folders/1ObWA9MKeL1d8etU6hZBTyp9n-9B35ttQ?usp=drive_link"}]
+  },
+  {
+    "id": "PhysicsAndSubstepping_UnrealEngine",
+    "data": "Dec 2023",
+    "name": "Physics And Substepping: UnrealEngine 5.2",
+    "embedYT": "",
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/PhysicsAndSubsteppingEx2_Git/main/Documentation/Images/1_5FPSnoSubstep.gif",
+      "https://raw.githubusercontent.com/francescob97/PhysicsAndSubsteppingEx2_Git/main/Documentation/Images/2_15FPSnoSubstep.gif",
+      "https://raw.githubusercontent.com/francescob97/PhysicsAndSubsteppingEx2_Git/main/Documentation/Images/4_60FPSnoSubstep.gif",
+      "https://raw.githubusercontent.com/francescob97/PhysicsAndSubsteppingEx2_Git/main/Documentation/Images/11_DampedSpring.gif"
+    ],
+    "intro": "Simulation in UE5 of a Simple Harmonic Motion with a spring and a mass without taking into account gravity",
+    "descrizione": "Showcasing the harmonic movement and implementing a debug overlay to show the displacement value of the spring over time in a graph (similar to one in Stat UnitGraph console command), the period in second and amplitude in centimeters of the last oscillation. Full description can be found in the README of the GitHub Page below in the links section",
+    "insegnamenti": "Unreal Engine, UE Physics and Substepping",
+    "attributes": [],
+    "links": [
+      {"platform": "GitHub page with full project and documentation", "link" : "https://github.com/francescob97/PhysicsAndSubsteppingEx2_Git"},
+      {"platform": "Google Drive folder with videos and build", "link" : "https://drive.google.com/drive/folders/1rv0MO1Y-sLEjovHdp3syPctNyOy6TmWR?usp=sharing"}]
   },
   {
     "id": "TheBlackPearl_blender",

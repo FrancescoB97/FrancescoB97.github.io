@@ -16,6 +16,14 @@
     "page": true
   },
   {
+    "id": "PhysicsAndSubstepping_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/PhysicsAndSubsteppingEx2_Git/main/Documentation/Images/11_DampedSpring.gif",
+    "data": "Dec 2023",
+    "name": "Physics And Substepping: UnrealEngine 5.2",
+    "breveDescrizione": "Simulation in UE5 of a Simple Harmonic Motion with a spring and a mass without taking into account gravity",
+    "page": true
+  },
+  {
     "id": "TheBlackPearl_blender",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
     "data": "Mar 2022",
