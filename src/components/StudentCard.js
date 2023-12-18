@@ -80,9 +80,9 @@ function EducationTable(props) {
               </tr>
 
               <tr>
-              <td colSpan="5" style={{ "textAlign": "left" }}>Sep 2020 – present</td>
+              <td colSpan="5" style={{ "textAlign": "left" }}>Sep 2020 –<br/> Apr 2023</td>
               <td colSpan="5" style={{ "textAlign": "center" }}><b>{props.t("master_title")}<br/>{props.t("master_spec")}</b><br/>{props.t("master_location")}</td>
-              <td colSpan="5" style={{ "textAlign": "center" }}>Torino, Italia</td>
+              <td colSpan="5" style={{ "textAlign": "center" }}><div>Torino, Italia<br/>103/110</div></td>                  
               </tr>          
           </tbody>
       </Table>
