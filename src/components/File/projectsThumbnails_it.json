@@ -24,6 +24,14 @@
     "page": true
   },
   {
+    "id": "ProceduralGeneration_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/ProceduralGeneration.jpg",
+    "data": "Dic 2023",
+    "name": "Procedural Generation: UnrealEngine 5.2",
+    "breveDescrizione": "Generazione procedurale utilizzando le classi e gli strumenti disponibili in UE5.2 per popolare una strada dritta",
+    "page": true
+  },
+  {
     "id": "TheBlackPearl_blender",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
     "data": "Mar 2022",

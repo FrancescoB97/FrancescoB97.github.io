@@ -63,6 +63,25 @@
       {"platform": "Google Drive folder with videos and build", "link" : "https://drive.google.com/drive/folders/1rv0MO1Y-sLEjovHdp3syPctNyOy6TmWR?usp=sharing"}]
   },
   {
+    "id": "ProceduralGeneration_UnrealEngine",
+    "data": "Dec 2023",
+    "name": "Procedural Generation: UnrealEngine 5.2",
+    "embedYT": "",
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/ProceduralGenerationEx3_Git/main/Documentation/Images/Cover.png",
+      "https://raw.githubusercontent.com/francescob97/ProceduralGenerationEx3_Git/main/Documentation/Images/1_StreetsBehaviours.png",
+      "https://raw.githubusercontent.com/francescob97/ProceduralGenerationEx3_Git/main/Documentation/Images/2_StreetPCG.png",
+      "https://raw.githubusercontent.com/francescob97/ProceduralGenerationEx3_Git/main/Documentation/Images/11_Trash.png"
+    ],
+    "intro": "Procedural Content Generation (PCG) with classes and tools available in UE5.2 to properly populate a straight street",
+    "descrizione": "Generation of Street lamps, Benches, Buildings, Trash bins, Parked Cars andTrash",
+    "insegnamenti": "Unreal Engine, UE PCG",
+    "attributes": [],
+    "links": [
+      {"platform": "GitHub page with full project and documentation", "link" : "https://github.com/francescob97/ProceduralGenerationEx3_Git"},
+      {"platform": "Google Drive folder with videos and build", "link" : "https://drive.google.com/drive/folders/1xv2uEfYaWoLo03ymdu1RvZFffECS4sRr?usp=sharing"}]
+  },
+  {
     "id": "TheBlackPearl_blender",
     "data": "Mar 2022",
     "name": "Computer Graphics: Blender",
