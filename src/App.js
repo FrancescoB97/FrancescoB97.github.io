@@ -58,12 +58,12 @@ function App() {
         <div id="body" className="pt-3 px-3">
           <AppNavbar />
           <Row>
-            <Col xs={3}>
+            <Col xs={3} className="d-none d-sm-block">
               <AppSidebar title={title}/>
             </Col>
 
             <Switch>
-              <Col xs={7}>
+              <Col sm={7}>
 
               <h2><b>{title}</b></h2>             
 
@@ -104,6 +104,10 @@ function App() {
                 <Redirect to='/AboutMe'/>
               </Route>
             </Switch>
+
+            <Col xs={3} className="d-none d-sm-block">
+          
+            </Col>
           </Row>
         </div>
       </Container>

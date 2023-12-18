@@ -44,7 +44,7 @@ function AddProject(props)
       <div className="m-3 projectcorners">
       <small>{props.project.data}</small>
         <div style={{ width: "18rem" , "background-color": "whitesmoke"}}>
-          <Card.Img variant="top" src={props.project.propic} />
+          <Card.Img variant="top" src={props.project.propic} style={{ maxHeight: '15rem' }} />
           <Card.Body>
             <Card.Title><b>{props.project.name}</b></Card.Title>
             <Card.Text>
