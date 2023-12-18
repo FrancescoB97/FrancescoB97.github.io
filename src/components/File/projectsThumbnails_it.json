@@ -8,6 +8,14 @@
     "page": true
   },
   {
+    "id": "LyraStarterGame_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/LyraStarterGame.jpg",
+    "data": "Dic 2023",
+    "name": "Lyra Starter Game: UnrealEngine 5.2",
+    "breveDescrizione": "Implementati il Teleport, RewindTime, WallRun e WallJump nel Lyra Project",
+    "page": true
+  },
+  {
     "id": "TheBlackPearl_blender",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
     "data": "Mar 2022",

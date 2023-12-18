@@ -23,6 +23,27 @@
     "links": []
   },
   {
+    "id": "LyraStarterGame_UnrealEngine",
+    "data": "Dec 2023",
+    "name": "Lyra Starter Game: UnrealEngine 5.2",
+    "embedYT": "",
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/TeleportServer.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/TeleportClient.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/RewindTimeServer.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/RewindTimeClient.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/WallRunServer.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/WallRunClient.gif"
+    ],
+    "intro": "Responsive implementation, using client prediction and server-reconciliation of 4 movement abilities: Teleport, Rewind Time, Wall Run, Wall Jump. These have been implemented as special moves inside the CharacterMovementComponent (CMC)",
+    "descrizione": "Full description can be found in the README of the GitHub Page below in the links section",
+    "insegnamenti": "Unreal Engine, Character Movement Component, Lyra Project",
+    "attributes": [],
+    "links": [
+      {"platform": "GitHub page with full project and description", "link" : "https://github.com/francescob97/LyraStarterGameEx1"},
+      {"platform": "Google Drive folder with videos", "link" : "https://drive.google.com/drive/folders/1ObWA9MKeL1d8etU6hZBTyp9n-9B35ttQ?usp=drive_link"}]
+  },
+  {
     "id": "TheBlackPearl_blender",
     "data": "Mar 2022",
     "name": "Computer Graphics: Blender",
