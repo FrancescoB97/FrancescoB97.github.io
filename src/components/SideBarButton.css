@@ -1,5 +1,4 @@
-#btn-style {     
-    margin: 0 1.5rem 1.5rem 0;
+#btn-style {         
     border-radius: 50%;
     height: 75px; /*fixed to increase correctly the font size*/
     width: 75px; /*without button being distorced*/
@@ -7,3 +6,17 @@
     align-items: center;
     justify-content: center;
   }
+
+@media (max-width: 576px) {
+    /* Set the width and height to 10px for small screens */
+    #btn-style {
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+
+.btn-fill
+{
+    height: 48px;
+    width: 48px; 
+}

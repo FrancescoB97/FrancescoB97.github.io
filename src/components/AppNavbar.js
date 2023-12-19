@@ -1,13 +1,31 @@
 import i18next from 'i18next';
-import { Navbar, Image, Button } from "react-bootstrap";
+import {Navbar, Image, Button, NavLink} from "react-bootstrap";
 import it from "./Images/ita.svg";
 import en from "./Images/eng.svg";
+import {AboutMeBtn, PortfolioBtn, ProfessionalCardBtn, SkillsBtn, SocialsBtn, StudentCardBtn} from "./SideBarButton";
 
-function AppNavbar() {
+function AppNavbar(props) {
   return (
-    <Navbar className="justify-content-end" variant="light" expand="sm">      
-     <div>
-      
+    <Navbar className="d-flex justify-content-end" variant="light" expand="sm">      
+     <div className="d-sm-none d-flex justify-content-around">
+         <NavLink as="li">
+             <AboutMeBtn title={props.title}/>
+         </NavLink>
+         <NavLink as="li">
+             <SkillsBtn title={props.title}/>
+         </NavLink>
+         <NavLink as="li">
+             <PortfolioBtn title={props.title}/>
+         </NavLink>
+         <NavLink as="li">
+             <ProfessionalCardBtn title={props.title}/>
+         </NavLink>
+         <NavLink as="li">
+             <StudentCardBtn title={props.title}/>
+         </NavLink>
+         <NavLink as="li">
+             <SocialsBtn title={props.title}/>
+         </NavLink>
      </div>
      <div className="d-flex justify-content-end">
       <Navbar.Brand>

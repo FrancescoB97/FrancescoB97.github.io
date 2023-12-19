@@ -56,7 +56,7 @@ function App() {
     <Router >
       <Container fluid className="AppBk m-0 p-0">
         <div id="body" className="pt-3 px-3">
-          <AppNavbar />
+          <AppNavbar title={title}/>
           <Row>
             <Col xs={3} className="d-none d-sm-block">
               <AppSidebar title={title}/>
