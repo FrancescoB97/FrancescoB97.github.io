@@ -32,19 +32,6 @@
   color: #61dafb;
 }
 
-.rcorners {
-  border-radius: 25px;
-  border: 1px solid #111111;
-  padding: 13px;
-  /*width: 800px;*/
-  /*height: 150px;*/
-  background-color: #DDDDDD;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .center-block {
   justify-content: space-between;
     margin-left:auto;
