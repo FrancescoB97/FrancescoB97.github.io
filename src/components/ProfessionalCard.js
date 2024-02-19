@@ -14,7 +14,7 @@ function ProfessionalCardPage(props)
   return (
     <div className="mt-5 pt-4">
         <h5><b>{props.t("Professional Experience")}</b></h5>
-        <JobsTable></JobsTable>
+        <JobsTable/>
 
         <h5 className="mt-4 pt-4"><b>{props.t("Courses")}</b></h5>
         {courses.map((c) => <CoursesRow t={props.t} course={c}/>)}   
@@ -23,7 +23,7 @@ function ProfessionalCardPage(props)
   );
 }
 
-function JobsTable(props) {
+function JobsTable() {
   return (
       <Table id="educationTable" striped className="table">
         <thead >
