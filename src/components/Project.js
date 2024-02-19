@@ -29,7 +29,11 @@ function ProjectPage(props) {
         <p>{props.project.intro}</p>
 
         <h3 className = "mt-4"><b>{props.t("proj_description")}</b></h3>
-        <p>{props.project.descrizione}</p>
+        <div>
+        {props.project.descrizione.split("\n").map((paragraph, index) => (
+          <p className="py-2" key={index}>{paragraph}</p>
+        ))}
+        </div>      
 
         <h3 className = "mt-4"><b>{props.t("proj_teaching")}</b></h3>
         <p>{props.project.insegnamenti}</p>
