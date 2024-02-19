@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.2efac9b3.css",
-    "main.js": "/static/js/main.2f5d99ba.js",
+    "main.css": "/static/css/main.8199986e.css",
+    "main.js": "/static/js/main.92cdc3c4.js",
     "static/js/787.7af4dbd6.chunk.js": "/static/js/787.7af4dbd6.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/IELTScertificazione_en.png": "/static/media/IELTScertificazione_en.e62d283997f9d1720698.png",
     "static/media/IELTScertificazione_it.png": "/static/media/IELTScertificazione_it.7a69aef51317fdc59cff.png",
     "static/media/myPhoto.jpg": "/static/media/myPhoto.0c303edbd72cdef7a776.jpg",
@@ -10,12 +12,12 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
     "static/media/ita.svg": "/static/media/ita.2e605462bd0924e1473e27a1c758a016.svg",
-    "main.2efac9b3.css.map": "/static/css/main.2efac9b3.css.map",
-    "main.2f5d99ba.js.map": "/static/js/main.2f5d99ba.js.map",
+    "main.8199986e.css.map": "/static/css/main.8199986e.css.map",
+    "main.92cdc3c4.js.map": "/static/js/main.92cdc3c4.js.map",
     "787.7af4dbd6.chunk.js.map": "/static/js/787.7af4dbd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2efac9b3.css",
-    "static/js/main.2f5d99ba.js"
+    "static/css/main.8199986e.css",
+    "static/js/main.92cdc3c4.js"
   ]
 }

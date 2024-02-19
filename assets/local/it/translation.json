@@ -1,5 +1,5 @@
 {    
-    "profile_address" : "Via Michele Schina 16, 10143 Torino, Piemonte, Italia",
+    "profile_address" : "Torino, Piemonte, Italia",
     "profile_driving" : "Patente B",
     "about_me_title" : "Su di me",
     "about_me_text" : [
@@ -47,9 +47,5 @@
     "exam_exam" : "Esame", 
     "exam_credits" : "Crediti", 
     "exam_mark" : "Voto", 
-    "exam_lang" : "Lingua",
-    "social_title" : "Potete trovarmi nei seguenti indirizzi",
-    "clipboard_tip" : "Copia negli appunti",
-    "tab_tip" : "Apri in una nuova scheda",
-    "download_header" : "Scarica il mio CV in formato pdf"
+    "exam_lang" : "Lingua"
 }
