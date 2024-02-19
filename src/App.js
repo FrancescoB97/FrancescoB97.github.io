@@ -13,7 +13,6 @@ import { SkillsPage } from "./components/Skills";
 import { PortfolioPage } from "./components/Portfolio";
 import { StudentCardPage } from "./components/StudentCard";
 import { ProfessionalCardPage } from "./components/ProfessionalCard";
-import { SocialsPage } from "./components/Socials";
 import { ProjectPage } from "./components/Project";
 import API from "./components/API";
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
@@ -90,11 +89,7 @@ function App() {
 
               <Route path="/StudentCard" render={() => (
                   <StudentCardPage t={t} updateTitle={updateTitle} exams={exams} setExams={setExams}/>              
-              )} />
-
-              <Route path="/Socials" render={() => (
-                  <SocialsPage t={t} updateTitle={updateTitle}/>              
-              )} />
+              )} />      
 
               <Route exact path="/Portfolio/:ID" render={({ match }) => (               
                 <ProjectPage t={t} updateTitle={updateTitle} project={i18next.language == "en" ? projects_en.filter((p) => p.id === match.params.ID)[0] : projects_it.filter((p) => p.id === match.params.ID)[0]}/>

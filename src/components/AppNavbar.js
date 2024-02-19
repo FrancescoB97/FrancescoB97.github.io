@@ -2,7 +2,7 @@ import i18next from 'i18next';
 import {Navbar, Image, Button, NavLink} from "react-bootstrap";
 import it from "./Images/ita.svg";
 import en from "./Images/eng.svg";
-import {AboutMeBtn, PortfolioBtn, ProfessionalCardBtn, SkillsBtn, SocialsBtn, StudentCardBtn} from "./SideBarButton";
+import {AboutMeBtn, PortfolioBtn, ProfessionalCardBtn, SkillsBtn, StudentCardBtn} from "./SideBarButton";
 
 function AppNavbar(props) {
   return (
@@ -22,10 +22,7 @@ function AppNavbar(props) {
          </NavLink>
          <NavLink as="li">
              <StudentCardBtn title={props.title}/>
-         </NavLink>
-         <NavLink as="li">
-             <SocialsBtn title={props.title}/>
-         </NavLink>
+         </NavLink>   
      </div>
      <div className="d-flex justify-content-end">
       <Navbar.Brand>
