@@ -10,9 +10,12 @@ function PortfolioPage(props) {
   
   return (
     <div className="mt-5 pt-4">
-      <AddThesis t={props.t} project={props.projects[0]}></AddThesis>
+      <ThesisThumbnail t={props.t} project={props.projects[0]}/>
+      
       <div className="d-flex flex-wrap justify-content-around">
-        {props.projects.slice(1).map((p) => <AddProject t={props.t} project={p}/>)}
+        {props.projects.slice(1).map((p) => <ProjectThumbnail t={props.t} project={p}/>)}
+        
+        
         <div className="d-flex justify-content-around mt-5 pt-5">
         
         <div className="m-3">
@@ -38,7 +41,7 @@ function PortfolioPage(props) {
   );
 }
 
-function AddProject(props)
+function ProjectThumbnail(props)
 {
   return(
       <div className="m-3 projectcorners">
@@ -59,7 +62,7 @@ function AddProject(props)
   )
 }
 
-function AddThesis(props)
+function ThesisThumbnail(props)
 {
   return(
       <div className="m-4 thesiscorners ">

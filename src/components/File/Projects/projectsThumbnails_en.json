@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Thesis",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Thesis.png",
+    "data": "Apr 2023",
+    "name": "Virtual respiratory endoscopy system for educational applications",
+    "breveDescrizione": "Master's thesis research at the Polytechnic University of Turin",
+    "page": true
+  },
+  {
+    "id": "LyraStarterGame_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/LyraStarterGame.jpg",
+    "data": "Dec 2023",
+    "name": "Lyra Starter Game: UnrealEngine 5.2",
+    "breveDescrizione": "Adding Teleport, RewindTime, WallRun and WallJump abilities to the Lyra Project",
+    "page": true
+  },
+  {
+    "id": "PhysicsAndSubstepping_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/PhysicsAndSubsteppingEx2_Git/main/Documentation/Images/11_DampedSpring.gif",
+    "data": "Dec 2023",
+    "name": "Physics And Substepping: UnrealEngine 5.2",
+    "breveDescrizione": "Simulation in UE5 of a Simple Harmonic Motion with a spring and a mass without taking into account gravity",
+    "page": true
+  },
+  {
+    "id": "ProceduralGeneration_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/ProceduralGeneration.jpg",
+    "data": "Dec 2023",
+    "name": "Procedural Generation: UnrealEngine 5.2",
+    "breveDescrizione": "Procedural Content Generation (PCG) with classes and tools available in UE5.2 to properly populate a straight street",
+    "page": true
+  },
+  {
+    "id": "TheBlackPearl_blender",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
+    "data": "Mar 2022",
+    "name": "Computer Graphics: Blender",
+    "breveDescrizione": "3D modeling and rendering of a static scene in Blender",
+    "page": true
+  },
+  {
+    "id": "TheBlackPearl_openGL",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_openGL.jpg",
+    "data": "Mar 2022",
+    "name": "Computer Graphics: OpenGL",
+    "breveDescrizione": "Interactive application in openGL",
+    "page": true
+  },
+  {
+    "id": "HappyHippoSpot",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/HappyHippoSpot.jpg",
+    "data": "Jul 2022",
+    "name": "Computer Animation",
+    "breveDescrizione": "Replica of the Kinder Happy Hippo advertisement",
+    "page": true
+  },
+  {
+    "id": "TheRegnant",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/RV.jpg",
+    "data": "Feb 2022",
+    "name": "Virtual Reality",
+    "breveDescrizione": "Desktop application with teaching purpose to discover the complex and fascinating world of ants from their point of view",
+    "page": true
+  },
+  {
+    "id": "ComputerVision_project",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/CV_project.jpg",
+    "data": "Jan 2023",
+    "name": "Image Processing and Computer Vision: OpenCV & Python",
+    "breveDescrizione": "Gesture recognition application",
+    "page": false
+  },
+  {
+    "id": "Surveys_web_app",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/WEBAPP.jpg",
+    "data": "Jul 2021",
+    "name": "Web application",
+    "breveDescrizione": "Website of Survey management in React Bootstrap, handling fontend and backend",
+    "page": true
+  },
+  {
+    "id": "BlindLabyrinth",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/ASE.jpg",
+    "data": "Jan 2021",
+    "name": "Computer Architectures",
+    "breveDescrizione": "Application for Keil uVision emulator of LandTiger board",
+    "page": true
+  },
+  {
+    "id": "EzShop",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/SWENG.png",
+    "data": "Jun 2021",
+    "name": "Software Engineering",
+    "breveDescrizione": "Ezshop: application for small shops to support owners and managers",
+    "page": true
+  }  
+]

@@ -18,9 +18,8 @@ import API from "./components/API";
 import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import projectsThumbnail_en from "./components/File/projectsThumbnails_en.json";
-import projects_en from "./components/File/projects_en.json";
 import projectsThumbnail_it from "./components/File/projectsThumbnails_it.json";
-import projects_it from "./components/File/projects_it.json";
+
 import i18next from 'i18next';
 
 function App() {
@@ -92,7 +91,7 @@ function App() {
               )} />      
 
               <Route exact path="/Portfolio/:ID" render={({ match }) => (               
-                <ProjectPage t={t} updateTitle={updateTitle} project={i18next.language == "en" ? projects_en.filter((p) => p.id === match.params.ID)[0] : projects_it.filter((p) => p.id === match.params.ID)[0]}/>
+                <ProjectPage t={t} updateTitle={updateTitle} projectID={match.params.ID}/>
               )}/>         
                 
               </Col>

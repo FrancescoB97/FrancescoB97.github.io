@@ -1,0 +1,19 @@
+{
+    "id": "LyraStarterGame_UnrealEngine",
+    "name": "Lyra Starter Game: UnrealEngine 5.2",
+    "embedYT": "",
+    "screenshots" : [
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/TeleportServer.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/TeleportClient.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/RewindTimeServer.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/RewindTimeClient.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/WallRunServer.gif",
+      "https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/WallRunClient.gif"
+    ],
+    "intro": "Responsive implementation, using client prediction and server-reconciliation of 4 movement abilities: Teleport, Rewind Time, Wall Run, Wall Jump. These have been implemented as special moves inside the CharacterMovementComponent (CMC)",
+    "teachings": "Unreal Engine, Character Movement Component, Lyra Project",
+    "attributes": [],
+    "links": [
+      {"platform": "GitHub", "link" : "https://github.com/francescob97/LyraStarterGameEx1"},
+      {"platform": "GoogleDrive", "link" : "https://drive.google.com/drive/folders/1ObWA9MKeL1d8etU6hZBTyp9n-9B35ttQ?usp=drive_link"}]
+ }
