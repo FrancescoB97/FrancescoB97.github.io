@@ -49,7 +49,7 @@ function AboutMePage(props) {
           )}
           placement="bottom">
             
-        <Button variant="outline-warning" size="lg" onClick={() => openInNewTab("https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/CV_en/CV-Francesco_Bonini.pdf")}>
+        <Button variant="outline-warning" size="lg" onClick={() => openInNewTab("https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/CV/CV_BoniniFrancesco.pdf")}>
         <i class="bi bi-file-earmark-arrow-down h1"></i>
         </Button>   
         </OverlayTrigger>  
