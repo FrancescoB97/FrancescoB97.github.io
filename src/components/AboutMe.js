@@ -7,7 +7,7 @@ import { useEffect } from "react";
 function AboutMePage(props) {
   useEffect(() => {
     props.updateTitle("AboutMe");
-  }, []); 
+  }, [props]); 
   
   return (
     <div>  

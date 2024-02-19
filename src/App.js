@@ -79,7 +79,7 @@ function App() {
               )} />
 
               <Route exact path="/Portfolio" render={() => (
-                  <PortfolioPage t={t} updateTitle={updateTitle} projects ={i18next.language == "en" ? projectsThumbnail_en : projectsThumbnail_it}/>              
+                  <PortfolioPage t={t} updateTitle={updateTitle} projects ={i18next.language === "en" ? projectsThumbnail_en : projectsThumbnail_it}/>              
               )} />
 
                 <Route path="/ProfessionalCard" render={() => (
