@@ -117,8 +117,9 @@ function LinkButton(props) {
   
   let _color = "";
   let _icon = "";
+  const _platform = props.platform;
 
-  switch(props.platform.toLowerCase()) {
+  switch(_platform.toLowerCase()) {
     case 'download':
       _color = "outline-warning";
       _icon = "bi bi-file-earmark-arrow-down";
@@ -150,7 +151,7 @@ function LinkButton(props) {
             delay={{ hide: 100, show: 200 }}
             overlay={(props) => (
                 <Tooltip {...props}>
-                  Open into new tab
+                  {`Go To ${_platform}`}          
                 </Tooltip>
             )}
             placement="bottom">

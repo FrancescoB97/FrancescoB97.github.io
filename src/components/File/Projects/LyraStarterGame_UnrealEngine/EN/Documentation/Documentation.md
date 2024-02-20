@@ -188,17 +188,3 @@ The player is able to perform a lateral jump while flying very close to a wall. 
 ### Implementation
 
 Given the little difference with the wall jump implemented during the wall run, I considered this request solved by the previous solution.
-
-## Reference links
-
-Thanks to **_delgoodie_** with this awesome video series that helped me a lot studying the Character Movement:  
-https://www.youtube.com/watch?v=urkLwpnAjO0&list=PLXJlkahwiwPmeABEhjwIALvxRSZkzoQpk
-
-Thanks to **_NanceDevDiaries_** that helped me understand and move through Lyra project and its Gameplay Ability System: 
-https://www.youtube.com/watch?v=zeOm45iWc7M
-
-Recall ability from Overwatch wiki: 
-https://overwatch-archive.fandom.com/wiki/Recall
-
-Wall Run ability from Overwatch: 
-https://www.youtube.com/watch?v=YH0ePK5ia50
