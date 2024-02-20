@@ -28,7 +28,7 @@ and in this way they should be identical.
 
 ## Teleport
 
-    The player is able to teleport 10 meters forward upon pressing the T key.
+The player is able to teleport 10 meters forward upon pressing the T key.
 
 ### Implementation
 
@@ -42,12 +42,14 @@ from UMovementComponent. Sweep is enabled, so any slope will stop the teleport. 
 
 Server view is on the left, Client on the other side.
 
-| <img src="Documentation/Images/TeleportServer.gif" alt="TeleportServer" style="width:720px;height:405px;"> |
-|:----------------------------------------------------------------------------------------------------------:|
-|                           Server Teleport from Server and Client points of view                            |
+|       ![TeleportServer](https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/TeleportServer.gif)        |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------:|
+|                                              Server Teleport from Server and Client points of view                                              |
 
 
-| <img src="Documentation/Images/TeleportClient.gif" alt="TeleportClient" style="width:720px;height:405px;"> |
+
+
+| ![TeleportClient](https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/TeleportClient.gif)|
 |:----------------------------------------------------------------------------------------------------------:|
 |                           Client Teleport from Server and Client points of view                            |
 
@@ -69,7 +71,7 @@ Server view is on the left, Client on the other side.
 
 ## Rewind Time
 
-    This feature is similar to the Tracer ability in Overwatch. Player should be able to rewind his time without affecting others' gameplay.
+This feature is similar to the Tracer ability in Overwatch. Player should be able to rewind his time without affecting others' gameplay.
 
 ### Implementation
 
@@ -93,15 +95,14 @@ certain amount of time, like 1.25 secs.
 
 Server view is on the left, Client on the other side.
 
-| <img src="Documentation/Images/RewindTimeServer.gif" alt="RewindTimeServer" style="width:720px;height:405px;">  |
-|:-----------------------------------------------------------------------------------------------------------:|
-| Server Rewind Time from Server and Client points of view. <br/>Server healing<br/>Pck Lag 500, PckJitter 30 |
+| ![RewindTimeServer](https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/RewindTimeServer.gif) |
+|:-------------------------------------------------------------------------------------------------------------------------------------:|
+|                  Server Rewind Time from Server and Client points of view. Server healing. Pck Lag 500, PckJitter 30                  |
 
 
-| <img src="Documentation/Images/RewindTimeClient.gif" alt="RewindTimeClient" style="width:720px;height:405px;"> |
-|:--------------------------------------------------------------------------------------------------------------:|
-|            Client Rewind Time from Server and Client points of view. <br/>Pck Lag 500, PckJitter 30            |
-
+| ![RewindTimeClient](https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/RewindTimeClient.gif) |
+|:-------------------------------------------------------------------------------------------------------------------------------------:|
+|                       Client Rewind Time from Server and Client points of view. Pck Lag 500, PckJitter 30                        |
 
 
 
@@ -122,7 +123,8 @@ Server view is on the left, Client on the other side.
 
 ## Wall Run
 
-    This feature is similar to the Lucio ability in Overwatch. Player is able to run and jump on walls for a specific amount of time
+This feature is similar to the Lucio ability in Overwatch. Player is able to run and jump on walls for a specific amount of time
+
 
 ### Implementation
 
@@ -155,15 +157,14 @@ I made a simple wallrun animation using the built in control rig inside Unreal.
 
 Server view is on the left, Client on the other side.
 
-| <img src="Documentation/Images/WallRunServer.gif" alt="WallRunServer" style="width:720px;height:405px;"> |
+| ![WallRunServer](https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/WallRunServer.gif) |
 |:--------------------------------------------------------------------------------------------------------------:|
-|    Server WallRun from Server and Client points of view. <br/>Pck Lag 500, PckJitter 30     |
+|    Server WallRun from Server and Client points of view. Pck Lag 500, PckJitter 30     |
 
 
-| <img src="Documentation/Images/WallRunClient.gif" alt="WallRunClient" style="width:720px;height:405px;"> |
-|:--------------------------------------------------------------------------------------------------------:|
-|          Client WallRun from Server and Client points of view. <br/>Pck Lag 500, PckJitter 30           |
-
+| ![WallRunClient](https://raw.githubusercontent.com/francescob97/LyraStarterGameEx1/main/Documentation/Images/WallRunClient.gif) |
+|:-------------------------------------------------------------------------------------------------------------------------------:|
+|                         Client WallRun from Server and Client points of view. Pck Lag 500, PckJitter 30                         |
 
 
 ### File used
@@ -182,7 +183,7 @@ Server view is on the left, Client on the other side.
 
 ## Wall Jump
 
-    The player is able to perform a lateral jump while flying very close to a wall. This jump will push the player to the opposite direction of the wall, and a bit higher than before
+The player is able to perform a lateral jump while flying very close to a wall. This jump will push the player to the opposite direction of the wall, and a bit higher than before
 
 ### Implementation
 
@@ -190,10 +191,14 @@ Given the little difference with the wall jump implemented during the wall run, 
 
 ## Reference links
 
-Thanks to **_delgoodie_** with this awesome video series that helped me a lot studying the Character Movement:  https://www.youtube.com/watch?v=urkLwpnAjO0&list=PLXJlkahwiwPmeABEhjwIALvxRSZkzoQpk
+Thanks to **_delgoodie_** with this awesome video series that helped me a lot studying the Character Movement:  
+https://www.youtube.com/watch?v=urkLwpnAjO0&list=PLXJlkahwiwPmeABEhjwIALvxRSZkzoQpk
 
-Thanks to **_NanceDevDiaries_** that helped me understand and move through Lyra project and its Gameplay Ability System: https://www.youtube.com/watch?v=zeOm45iWc7M
+Thanks to **_NanceDevDiaries_** that helped me understand and move through Lyra project and its Gameplay Ability System: 
+https://www.youtube.com/watch?v=zeOm45iWc7M
 
-Recall ability from Overwatch wiki: https://overwatch-archive.fandom.com/wiki/Recall
+Recall ability from Overwatch wiki: 
+https://overwatch-archive.fandom.com/wiki/Recall
 
-Wall Run ability from Overwatch: https://www.youtube.com/watch?v=YH0ePK5ia50
+Wall Run ability from Overwatch: 
+https://www.youtube.com/watch?v=YH0ePK5ia50

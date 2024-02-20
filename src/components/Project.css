@@ -12,3 +12,94 @@
   width: 100%;
   position: absolute;
 }
+
+.carousel {
+  height: 50vh;
+  border: 2px solid lightcoral;
+  border-radius: 10px; 
+}
+
+.carousel_Div {
+  /*display: flex;
+  align-items: center;
+  justify-content: center;*/
+  position: relative; /* Per consentire il posizionamento assoluto */
+  text-align: center;
+  height: 49vh;
+  
+}
+
+.carousel-img {
+  max-width:100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+  position: absolute; /* Posizionamento assoluto per centrare verticalmente */
+  top: 50%; /* Sposta l'immagine verso il basso del 50% dell'altezza del Carousel */
+  left: 50%; /* Sposta l'immagine verso destra del 50% della larghezza del Carousel */
+  transform: translate(-50%, -50%);
+}
+
+/* Modifica lo stile delle frecce destre e sinistre */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: darkgrey; /* Colore di sfondo delle frecce blu */
+  border: 2px solid darkgrey;
+  border-radius: 10px;
+  opacity: .7;
+}
+
+/* Hover band color */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #d8d1d8; 
+}
+
+/* Modifica il colore delle frecce attive */
+.carousel-control-prev:not(.carousel-control-disabled),
+.carousel-control-next:not(.carousel-control-disabled) {
+  opacity: 1; /* Opacità delle frecce attive */  
+}
+
+/*.carousel-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.carousel-img {
+  max-width:  100%;
+  display: block;
+}*/
+
+table{
+  margin: auto
+}
+
+tr img{
+  max-width:  100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  max-width:  100%;
+  display: block;
+}
+
+
+/*img[alt="WallRunClient"] {
+  max-width:  50%;
+  display: block;
+}*/
+
+table,
+tr,
+td,
+th {
+  border: 2px solid #555;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

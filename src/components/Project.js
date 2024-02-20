@@ -2,11 +2,13 @@ import React, {useEffect, useState} from "react";
 import "./Project.css"
 import PropTypes from "prop-types";
 import {Button, Carousel, OverlayTrigger, Tooltip} from "react-bootstrap";
-
+import ReactMarkdown from 'react-markdown'
+import gfm from 'remark-gfm';
 
 function ProjectPage(props) {
 
   const [jsonData, setJsonData] = useState(null);
+  const [markdownContent, setMarkdownContent] = useState('');
 
   useEffect(() => {
     const fetchData = async () => {
@@ -20,7 +22,24 @@ function ProjectPage(props) {
     };
 
     fetchData();    
-  }, [props.projectID, props.updateTitle]);  
+  }, [props.projectID, props.updateTitle]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const module = await import(`./File/Projects/${props.projectID}/EN/Documentation/Documentation.md`);
+        fetch(module.default)
+            .then((response) => response.text())
+            .then((text) => {
+              setMarkdownContent(text);
+            });     
+      } catch (error) {
+        console.error('Error fetching JSON data:', error);
+      }
+    };
+
+    fetchData();
+  }, [props.projectID]);
 
   
   return(<div>   
@@ -31,13 +50,16 @@ function ProjectPage(props) {
               {jsonData.embedYT.length !== 0 ? <YoutubeEmbed embedId={jsonData.embedYT} /> : <></>}
               
               {jsonData.screenshots.length !== 0 ?
-                  <Carousel className="mt-3" interval={3000}>
+                  <Carousel className="mt-3" interval={2000}>
                     {jsonData.screenshots.map((screen, i) => (
-                        <Carousel.Item key={i++}>
-                          <img
-                              className="d-block w-100"
-                              src={screen}
-                          />
+                        <Carousel.Item key={i}>
+                          <div className="carousel_Div">
+                            <img
+                                className="carousel-img"
+                                src={screen}
+                                alt={`Screenshot ${i}`}
+                            />
+                          </div>
                         </Carousel.Item>
                     ))}
                   </Carousel>  : <></>}
@@ -56,6 +78,10 @@ function ProjectPage(props) {
 
             <h3 className = "mt-4"><b>{props.t("proj_teaching")}</b></h3>
             <p>{jsonData.teachings}</p>
+
+            <div>              
+              <ReactMarkdown remarkPlugins={[gfm]}>{markdownContent}</ReactMarkdown>      
+            </div>
             
             
             {jsonData.attributes.length !== 0 ?

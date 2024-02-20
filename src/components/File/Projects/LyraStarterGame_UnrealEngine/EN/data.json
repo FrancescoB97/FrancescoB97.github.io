@@ -14,6 +14,8 @@
     "teachings": "Unreal Engine, Character Movement Component, Lyra Project",
     "attributes": [],
     "links": [
-      {"platform": "GitHub", "link" : "https://github.com/francescob97/LyraStarterGameEx1"},
-      {"platform": "GoogleDrive", "link" : "https://drive.google.com/drive/folders/1ObWA9MKeL1d8etU6hZBTyp9n-9B35ttQ?usp=drive_link"}]
+      {"platform": "Download", "link" : "https://drive.google.com/drive/folders/1ObWA9MKeL1d8etU6hZBTyp9n-9B35ttQ?usp=drive_link"},
+      {"platform": "GitHub", "link" : "https://github.com/francescob97/LyraStarterGameEx1"},      
+      {"platform": "Youtube", "link" : "https://www.youtube.com/watch?v=waOXUdETnXU&list=PLiUM5P7jBVacB_7z4eVBh8wCqPTYpl-Re&index=5"}
+    ]
  }
