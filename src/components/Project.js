@@ -79,7 +79,7 @@ function ProjectPage(props) {
             <h3 className = "mt-4"><b>{props.t("proj_teaching")}</b></h3>
             <p>{jsonData.teachings}</p>
 
-            <div>              
+            <div className="Project-table Project-img">              
               <ReactMarkdown remarkPlugins={[gfm]}>{markdownContent}</ReactMarkdown>      
             </div>
             

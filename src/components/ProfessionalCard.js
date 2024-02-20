@@ -1,7 +1,8 @@
-import './StudentCard.css'
 import courses from "./File/courses.json";
 import { Table, Image, Accordion } from "react-bootstrap";
 import { useEffect } from 'react';
+import './StudentCard.css'
+
 
 function ProfessionalCardPage(props) 
 {  
