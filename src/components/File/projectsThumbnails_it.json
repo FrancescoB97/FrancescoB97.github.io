@@ -1,7 +1,7 @@
 [
   {
     "id": "Tesi",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Thesis.png",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Thumbnail.png",
     "data": "Feb 2023",
     "name": "Virtual respiratory endoscopy system for educational applications",
     "breveDescrizione": "Tesi magistrale di ricerca al Politecnico di Torino",
@@ -9,7 +9,7 @@
   },
   {
     "id": "LyraStarterGame_UnrealEngine",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/LyraStarterGame.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/LyraStarterGame_UnrealEngine/Thumbnail.jpg",
     "data": "Dic 2023",
     "name": "Lyra Starter Game: UnrealEngine 5.2",
     "breveDescrizione": "Implementati il Teleport, RewindTime, WallRun e WallJump nel Lyra Project",
@@ -25,7 +25,7 @@
   },
   {
     "id": "ProceduralGeneration_UnrealEngine",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/ProceduralGeneration.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/ProceduralGeneration_UnrealEngine/Thumbnail.jpg",
     "data": "Dic 2023",
     "name": "Procedural Generation: UnrealEngine 5.2",
     "breveDescrizione": "Generazione procedurale utilizzando le classi e gli strumenti disponibili in UE5.2 per popolare una strada dritta",
@@ -33,7 +33,7 @@
   },
   {
     "id": "TheBlackPearl_blender",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_blender.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TheBlackPearl_blender/Thumbnail.jpg",
     "data": "Mar 2022",
     "name": "Informatica Grafica: Blender",
     "breveDescrizione": "Modellazione ed il rendering di scene 3D statiche in Blender",
@@ -41,7 +41,7 @@
   },
   {
     "id": "TheBlackPearl_openGL",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/IG_openGL.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TheBlackPearl_openGL/Thumbnail.jpg",
     "data": "Mar 2022",
     "name": "Informatica Grafica: OpenGL",
     "breveDescrizione": "Realizzazione di applicazione interattiva in openGL",
@@ -49,7 +49,7 @@
   },
   {
     "id": "HappyHippoSpot",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/HappyHippoSpot.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/HappyHippoSpot/Thumbnail.jpg",
     "data": "Jul 2022",
     "name": "Computer Animation",
     "breveDescrizione": "Replica della pubblicità del Kinder Happy Hippo",
@@ -57,7 +57,7 @@
   },  
   {
     "id": "TheRegnant",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/RV.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TheRegnant/Thumbnail.jpg",
     "data": "Feb 2022",
     "name": "Realtà Virtuale",
     "breveDescrizione": "Applicazione desktop di natura didattica per scoprire il complesso e affascinante mondo delle formiche a partire dal loro punto di vista",
@@ -65,7 +65,7 @@
   },
   {
     "id": "ComputerVision_project",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/CV_project.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/ComputerVision_project/Thumbnail.jpg",
     "data": "Gen 2023",
     "name": "Image Processing and Computer Vision: OpenCV & Python",
     "breveDescrizione": "Applicazione di riconoscimento gestuale",
@@ -73,7 +73,7 @@
   },
   {
     "id": "Surveys_web_app",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/WEBAPP.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Surveys_web_app/Thumbnail.jpg",
     "data": "Jul 2021",
     "name": "Applicazione Web",
     "breveDescrizione": "Sito di gestione di Surveys (Questionari) in React Bootstrap, gestendo sia parte di fontend sia parte backend",
@@ -81,7 +81,7 @@
   },
   {
     "id": "BlindLabyrinth",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/ASE.jpg",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/BlindLabyrinth/Thumbnail.jpg",
     "data": "Jan 2021",
     "name": "Architetture degli elaboratori",
     "breveDescrizione": "Applicazione interattiva per emulatore Keil uVision della scheda LandTiger",
@@ -89,7 +89,7 @@
   },
   {
     "id": "EzShop",
-    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/SWENG.png",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Thumbnail.png",
     "data": "Jun 2021",
     "name": "Progetto di ingegneria del Software",
     "breveDescrizione": "Ezshop: applicazione per piccoli negozi per supportare proprietario e manager",
