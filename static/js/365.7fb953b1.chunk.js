@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrancescob97_github_io=self.webpackChunkfrancescob97_github_io||[]).push([[365],{3365:function(a,e,c){a.exports=c.p+"static/media/Documentation.972e0af0245df73aaa12.md"}}]);
