@@ -1,0 +1,17 @@
+{
+  "id": "EzShop",
+  "name": "Project of Software Engineering course at Politecnico of Turin",
+  "embedYT": "",
+  "screenshots" : [
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Carousel/Screen0.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Carousel/Screen1.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Carousel/Screen2.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Carousel/Screen3.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Carousel/Screen4.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/EzShop/Carousel/Screen5.png"
+  ],
+  "intro": "Ezshop: application for small shops to support owners and managers",
+  "teachings": "The course focused on collaboration, I learned how fundamental good communication, teamwork and the division of work and the management of the timing are. I also warmed my fingers on Java and Unit Test",
+  "attributes": [],
+  "links": []
+}

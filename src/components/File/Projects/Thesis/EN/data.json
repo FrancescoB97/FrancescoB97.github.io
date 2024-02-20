@@ -3,14 +3,14 @@
 	"name": "Virtual equine respiratory endoscopy system for educational applications",
 	"embedYT": "",
 	"screenshots" : [
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/0.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/1.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/2.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/3.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/4.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/5.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/6.png",
-	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/Projects/Thesis/7.png"
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/0.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/1.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/2.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/3.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/4.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/5.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/6.png",
+	"https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/Carousel/7.png"
 	],
 	"intro": "Master's thesis project in computer engineering",
 	"teachings": "Unity, C#, Blender",
@@ -18,6 +18,6 @@
 	{"nome": "VR@LAB PoliTO", "link":"https://vr.polito.it/?np"}
 	],
 	"links": [
-		{"platform": "download", "link" : "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/s282890_Tesi_conv_s282890_master_thesis__bonini.pdf"}
+		{"platform": "download", "link" : "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/Thesis/EN/s282890_Tesi_conv_s282890_master_thesis__bonini.pdf"}
 		]
 }

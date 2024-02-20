@@ -1,0 +1,3 @@
+# Documentation
+
+Retro style game, written in OpenGL and C/C ++, in which the user must obtain the highest possible score, dodging rocks, shooting the Kraken, and paying attention to the mermaids. There are bonuses, such as the treasure, which increases the score, and malus, like the siren that switches the control keys. All spiced with an increase in speed of the incremental game that makes the experience more difficult and challenging

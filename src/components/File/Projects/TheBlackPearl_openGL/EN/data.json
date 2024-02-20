@@ -1,0 +1,14 @@
+{
+  "id": "TheBlackPearl_openGL",
+  "name": "Computer Graphics: OpenGL",
+  "embedYT": "6Qcr9eu0rkc",
+  "screenshots" : [],
+  "intro": "Project of Computer Graphics course at Politecnico of Turin: interactive application developed in openGL and glut",
+  "teachings": "In this course, I learned the low-level specifications for the production of 2D and 3D interactive applications",
+  "attributes": [
+    {"nome": "Pirates of Caribbean - soundtrack", "link":"https://www.youtube.com/watch?v=GspHIl_epR0"},
+    {"nome": "My Jolly Sailor Bold - Ashley Serena", "link":"https://www.youtube.com/watch?v=tPLodwT58nE"},
+    {"nome": "Davy Jones [Lyrics]", "link":"https://www.youtube.com/watch?v=n_LApFnTfP8"}
+  ],
+  "links": []
+}

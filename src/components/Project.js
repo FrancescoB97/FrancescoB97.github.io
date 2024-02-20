@@ -88,7 +88,7 @@ function ProjectPage(props) {
                 <>
                   <h3 className = "mt-4"><b>{props.t("proj_attributions")}</b></h3>
                   <p>
-                    {jsonData.attributes.map((a) => <><a href={a.link}>{a.name}</a><br/></>)}
+                    {jsonData.attributes.map((a) => <><a href={a.link}>{a.nome}</a><br/></>)}
                   </p></> : <></>}                  
           </>
           : <></>

@@ -1,0 +1,14 @@
+{
+  "id": "TheBlackPearl_blender",
+  "name": "Computer Graphics: Blender",
+  "embedYT": "I9orCtgXWSg",
+  "screenshots" : [
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TheBlackPearl_blender/Carousel/Render1.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TheBlackPearl_blender/Carousel/Render2.png",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TheBlackPearl_blender/Carousel/Render3.png"
+  ],
+  "intro": "Project of Computer Graphics course at Politecnico of Turin, developed in Blender 3.0.1 and 2.9.6",
+ "teachings": "In this course, I learned to apply modeling and rendering techniques for the creation of 3D (static) scenes. In particular, special attention was paid to modeling, materials, texturing, lighting, and simulation of physics. For the Kraken and the skeletons, there was also rigging, designed individually.",
+  "attributes": [],
+  "links": []
+}

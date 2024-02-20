@@ -1,0 +1,10 @@
+{
+  "id": "BlindLabyrinth",
+  "name": "Project of Computer Architecture course at Politecnico of Turin",
+  "embedYT": "X16wgaUkHiA",
+  "screenshots" : [],
+  "intro": "Application for Keil uVision emulator of LandTiger board",
+  "teachings": "In this course I learned an extremely low level of programming, such as Assembly. At one point we were able to integrate it with the C to develop more complex behaviors.",
+  "attributes": [],
+  "links": []
+}

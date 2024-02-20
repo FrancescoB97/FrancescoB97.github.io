@@ -1,0 +1,18 @@
+{
+  "id": "HappyHippoSpot",
+  "name": "Project di Computer Animation",
+  "embedYT": "Tmopv2N2nVM",
+  "screenshots" : [
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/HappyHippoSpot/Carousel/1.jpg",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/HappyHippoSpot/Carousel/2.jpg",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/HappyHippoSpot/Carousel/3.jpg",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/HappyHippoSpot/Carousel/4.jpg",
+    "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/HappyHippoSpot/Carousel/5.jpg"
+  ],
+  "intro": "Computer animation exam project: animation with blender 2.83",
+  "teachings": "In this course I learnt how to make a video with the use of modelling, animation and rendering software tools. Special emphasis on rigging, weight paint, various animation methods and particle systems",
+  "attributes": [
+    {"nome": "The Tokens - The Lion Sleeps Tonight (Wimoweh)", "link":"https://www.youtube.com/watch?v=OQlByoPdG6c"}
+  ],
+  "links": []
+}
