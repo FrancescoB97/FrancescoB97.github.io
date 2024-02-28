@@ -8,6 +8,14 @@
     "page": true
   },
   {
+    "id": "TileMinigame_UnrealEngine",
+    "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/File/Projects/TileMinigame_UnrealEngine/Thumbnail.png",
+    "data": "Feb 2024",
+    "name": "Tiles Minigame: UnrealEngine 5.3.2",
+    "breveDescrizione": "Reply Game Studios, Developer Test 2024. Minigioco in stile campo minato",
+    "page": true
+  },
+  {
     "id": "LyraStarterGame_UnrealEngine",
     "propic": "https://raw.githubusercontent.com/francescob97/francescob97.github.io/main/src/components/Images/Portfolio/LyraStarterGame.jpg",
     "data": "Dic 2023",
