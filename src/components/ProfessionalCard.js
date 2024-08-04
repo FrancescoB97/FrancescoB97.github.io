@@ -34,6 +34,12 @@ function JobsTable() {
         </tr>
         </thead>
         <tbody>
+        <tr>
+            <td colSpan="5" style={{ "textAlign": "centered" }}><b>System Engineer</b>, SSE - Leonardo
+                <br/>Integration of avionics and aeromechanical systems with simulation software,
+                using Fortran and C++.</td>
+            <td colSpan="5" style={{ "textAlign": "right" }}>2024 May – present<br/>Turin, Italy</td>
+        </tr>
         <tr>      
           <td colSpan="5" style={{ "textAlign": "centered" }}><b>Software Engineer</b>, Alten Italia - Leonardo
               <br/>Software developer for graphics interfaces in C++ and Qt for EFA simulator</td>
